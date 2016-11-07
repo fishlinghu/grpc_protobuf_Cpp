@@ -1,0 +1,856 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AsyncService	src/store.grpc.pb.h	/^  typedef WithAsyncMethod_getProducts<Service > AsyncService;$/;"	t	class:store::GRPC_FINAL
+AsyncService	src/vendor.grpc.pb.h	/^  typedef WithAsyncMethod_getProductBid<Service > AsyncService;$/;"	t	class:vendor::GRPC_FINAL
+AsyncService	test/store.grpc.pb.h	/^  typedef WithAsyncMethod_getProducts<Service > AsyncService;$/;"	t	class:store::GRPC_FINAL
+AsyncService	test/vendor.grpc.pb.h	/^  typedef WithAsyncMethod_getProductBid<Service > AsyncService;$/;"	t	class:vendor::GRPC_FINAL
+AsyncgetProductBid	src/vendor.grpc.pb.h	/^    std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::vendor::BidReply>> AsyncgetProductBid(::grpc::ClientContext* context, const ::vendor::BidQuery& request, ::grpc::CompletionQueue* cq) {$/;"	f	class:vendor::GRPC_FINAL::GRPC_FINAL
+AsyncgetProductBid	src/vendor.grpc.pb.h	/^    std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::vendor::BidReply>> AsyncgetProductBid(::grpc::ClientContext* context, const ::vendor::BidQuery& request, ::grpc::CompletionQueue* cq) {$/;"	f	class:vendor::GRPC_FINAL::StubInterface
+AsyncgetProductBid	test/vendor.grpc.pb.h	/^    std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::vendor::BidReply>> AsyncgetProductBid(::grpc::ClientContext* context, const ::vendor::BidQuery& request, ::grpc::CompletionQueue* cq) {$/;"	f	class:vendor::GRPC_FINAL::GRPC_FINAL
+AsyncgetProductBid	test/vendor.grpc.pb.h	/^    std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::vendor::BidReply>> AsyncgetProductBid(::grpc::ClientContext* context, const ::vendor::BidQuery& request, ::grpc::CompletionQueue* cq) {$/;"	f	class:vendor::GRPC_FINAL::StubInterface
+AsyncgetProductBidRaw	src/vendor.grpc.pb.cc	/^::grpc::ClientAsyncResponseReader< ::vendor::BidReply>* Vendor::Stub::AsyncgetProductBidRaw(::grpc::ClientContext* context, const ::vendor::BidQuery& request, ::grpc::CompletionQueue* cq) {$/;"	f	class:vendor::Vendor::Stub
+AsyncgetProductBidRaw	test/vendor.grpc.pb.cc	/^::grpc::ClientAsyncResponseReader< ::vendor::BidReply>* Vendor::Stub::AsyncgetProductBidRaw(::grpc::ClientContext* context, const ::vendor::BidQuery& request, ::grpc::CompletionQueue* cq) {$/;"	f	class:vendor::Vendor::Stub
+AsyncgetProducts	src/store.grpc.pb.h	/^    std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::store::ProductReply>> AsyncgetProducts(::grpc::ClientContext* context, const ::store::ProductQuery& request, ::grpc::CompletionQueue* cq) {$/;"	f	class:store::GRPC_FINAL::GRPC_FINAL
+AsyncgetProducts	src/store.grpc.pb.h	/^    std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::store::ProductReply>> AsyncgetProducts(::grpc::ClientContext* context, const ::store::ProductQuery& request, ::grpc::CompletionQueue* cq) {$/;"	f	class:store::GRPC_FINAL::StubInterface
+AsyncgetProducts	test/store.grpc.pb.h	/^    std::unique_ptr< ::grpc::ClientAsyncResponseReader< ::store::ProductReply>> AsyncgetProducts(::grpc::ClientContext* context, const ::store::ProductQuery& request, ::grpc::CompletionQueue* cq) {$/;"	f	class:store::GRPC_FINAL::GRPC_FINAL
+AsyncgetProducts	test/store.grpc.pb.h	/^    std::unique_ptr< ::grpc::ClientAsyncResponseReaderInterface< ::store::ProductReply>> AsyncgetProducts(::grpc::ClientContext* context, const ::store::ProductQuery& request, ::grpc::CompletionQueue* cq) {$/;"	f	class:store::GRPC_FINAL::StubInterface
+AsyncgetProductsRaw	src/store.grpc.pb.cc	/^::grpc::ClientAsyncResponseReader< ::store::ProductReply>* Store::Stub::AsyncgetProductsRaw(::grpc::ClientContext* context, const ::store::ProductQuery& request, ::grpc::CompletionQueue* cq) {$/;"	f	class:store::Store::Stub
+AsyncgetProductsRaw	test/store.grpc.pb.cc	/^::grpc::ClientAsyncResponseReader< ::store::ProductReply>* Store::Stub::AsyncgetProductsRaw(::grpc::ClientContext* context, const ::store::ProductQuery& request, ::grpc::CompletionQueue* cq) {$/;"	f	class:store::Store::Stub
+BaseClassMustBeDerivedFromService	src/store.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service *service) {}$/;"	f	class:store::GRPC_FINAL::WithAsyncMethod_getProducts
+BaseClassMustBeDerivedFromService	src/store.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service *service) {}$/;"	f	class:store::GRPC_FINAL::WithGenericMethod_getProducts
+BaseClassMustBeDerivedFromService	src/vendor.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service *service) {}$/;"	f	class:vendor::GRPC_FINAL::WithAsyncMethod_getProductBid
+BaseClassMustBeDerivedFromService	src/vendor.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service *service) {}$/;"	f	class:vendor::GRPC_FINAL::WithGenericMethod_getProductBid
+BaseClassMustBeDerivedFromService	test/store.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service *service) {}$/;"	f	class:store::GRPC_FINAL::WithAsyncMethod_getProducts
+BaseClassMustBeDerivedFromService	test/store.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service *service) {}$/;"	f	class:store::GRPC_FINAL::WithGenericMethod_getProducts
+BaseClassMustBeDerivedFromService	test/vendor.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service *service) {}$/;"	f	class:vendor::GRPC_FINAL::WithAsyncMethod_getProductBid
+BaseClassMustBeDerivedFromService	test/vendor.grpc.pb.h	/^    void BaseClassMustBeDerivedFromService(const Service *service) {}$/;"	f	class:vendor::GRPC_FINAL::WithGenericMethod_getProductBid
+Bid	test/product_queries_util.h	/^	struct Bid {$/;"	s	struct:ProductQueryResult
+BidQuery	src/vendor.pb.cc	/^BidQuery::BidQuery()$/;"	f	class:vendor::BidQuery
+BidQuery	src/vendor.pb.cc	/^BidQuery::BidQuery(const BidQuery& from)$/;"	f	class:vendor::BidQuery
+BidQuery	src/vendor.pb.h	/^class BidQuery : public ::google::protobuf::Message \/* @@protoc_insertion_point(class_definition:vendor.BidQuery) *\/ {$/;"	c	namespace:vendor
+BidQuery	test/vendor.pb.cc	/^BidQuery::BidQuery()$/;"	f	class:vendor::BidQuery
+BidQuery	test/vendor.pb.cc	/^BidQuery::BidQuery(const BidQuery& from)$/;"	f	class:vendor::BidQuery
+BidQuery	test/vendor.pb.h	/^class BidQuery : public ::google::protobuf::Message \/* @@protoc_insertion_point(class_definition:vendor.BidQuery) *\/ {$/;"	c	namespace:vendor
+BidQuery_descriptor_	src/vendor.pb.cc	/^const ::google::protobuf::Descriptor* BidQuery_descriptor_ = NULL;$/;"	m	namespace:vendor::__anon1	file:
+BidQuery_descriptor_	test/vendor.pb.cc	/^const ::google::protobuf::Descriptor* BidQuery_descriptor_ = NULL;$/;"	m	namespace:vendor::__anon5	file:
+BidQuery_reflection_	src/vendor.pb.cc	/^  BidQuery_reflection_ = NULL;$/;"	m	namespace:vendor::__anon1	file:
+BidQuery_reflection_	test/vendor.pb.cc	/^  BidQuery_reflection_ = NULL;$/;"	m	namespace:vendor::__anon5	file:
+BidReply	src/vendor.pb.cc	/^BidReply::BidReply()$/;"	f	class:vendor::BidReply
+BidReply	src/vendor.pb.cc	/^BidReply::BidReply(const BidReply& from)$/;"	f	class:vendor::BidReply
+BidReply	src/vendor.pb.h	/^class BidReply : public ::google::protobuf::Message \/* @@protoc_insertion_point(class_definition:vendor.BidReply) *\/ {$/;"	c	namespace:vendor
+BidReply	test/vendor.pb.cc	/^BidReply::BidReply()$/;"	f	class:vendor::BidReply
+BidReply	test/vendor.pb.cc	/^BidReply::BidReply(const BidReply& from)$/;"	f	class:vendor::BidReply
+BidReply	test/vendor.pb.h	/^class BidReply : public ::google::protobuf::Message \/* @@protoc_insertion_point(class_definition:vendor.BidReply) *\/ {$/;"	c	namespace:vendor
+BidReply_descriptor_	src/vendor.pb.cc	/^const ::google::protobuf::Descriptor* BidReply_descriptor_ = NULL;$/;"	m	namespace:vendor::__anon1	file:
+BidReply_descriptor_	test/vendor.pb.cc	/^const ::google::protobuf::Descriptor* BidReply_descriptor_ = NULL;$/;"	m	namespace:vendor::__anon5	file:
+BidReply_reflection_	src/vendor.pb.cc	/^  BidReply_reflection_ = NULL;$/;"	m	namespace:vendor::__anon1	file:
+BidReply_reflection_	test/vendor.pb.cc	/^  BidReply_reflection_ = NULL;$/;"	m	namespace:vendor::__anon5	file:
+ByteSize	src/store.pb.cc	/^int ProductInfo::ByteSize() const {$/;"	f	class:store::ProductInfo
+ByteSize	src/store.pb.cc	/^int ProductQuery::ByteSize() const {$/;"	f	class:store::ProductQuery
+ByteSize	src/store.pb.cc	/^int ProductReply::ByteSize() const {$/;"	f	class:store::ProductReply
+ByteSize	src/vendor.pb.cc	/^int BidQuery::ByteSize() const {$/;"	f	class:vendor::BidQuery
+ByteSize	src/vendor.pb.cc	/^int BidReply::ByteSize() const {$/;"	f	class:vendor::BidReply
+ByteSize	test/store.pb.cc	/^int ProductInfo::ByteSize() const {$/;"	f	class:store::ProductInfo
+ByteSize	test/store.pb.cc	/^int ProductQuery::ByteSize() const {$/;"	f	class:store::ProductQuery
+ByteSize	test/store.pb.cc	/^int ProductReply::ByteSize() const {$/;"	f	class:store::ProductReply
+ByteSize	test/vendor.pb.cc	/^int BidQuery::ByteSize() const {$/;"	f	class:vendor::BidQuery
+ByteSize	test/vendor.pb.cc	/^int BidReply::ByteSize() const {$/;"	f	class:vendor::BidReply
+CXX	src/Makefile	/^CXX = g++$/;"	m
+CXX	test/Makefile	/^CXX = g++$/;"	m
+Clear	src/store.pb.cc	/^void ProductInfo::Clear() {$/;"	f	class:store::ProductInfo
+Clear	src/store.pb.cc	/^void ProductQuery::Clear() {$/;"	f	class:store::ProductQuery
+Clear	src/store.pb.cc	/^void ProductReply::Clear() {$/;"	f	class:store::ProductReply
+Clear	src/vendor.pb.cc	/^void BidQuery::Clear() {$/;"	f	class:vendor::BidQuery
+Clear	src/vendor.pb.cc	/^void BidReply::Clear() {$/;"	f	class:vendor::BidReply
+Clear	test/store.pb.cc	/^void ProductInfo::Clear() {$/;"	f	class:store::ProductInfo
+Clear	test/store.pb.cc	/^void ProductQuery::Clear() {$/;"	f	class:store::ProductQuery
+Clear	test/store.pb.cc	/^void ProductReply::Clear() {$/;"	f	class:store::ProductReply
+Clear	test/vendor.pb.cc	/^void BidQuery::Clear() {$/;"	f	class:vendor::BidQuery
+Clear	test/vendor.pb.cc	/^void BidReply::Clear() {$/;"	f	class:vendor::BidReply
+CopyFrom	src/store.pb.cc	/^void ProductInfo::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:store::ProductInfo
+CopyFrom	src/store.pb.cc	/^void ProductInfo::CopyFrom(const ProductInfo& from) {$/;"	f	class:store::ProductInfo
+CopyFrom	src/store.pb.cc	/^void ProductQuery::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:store::ProductQuery
+CopyFrom	src/store.pb.cc	/^void ProductQuery::CopyFrom(const ProductQuery& from) {$/;"	f	class:store::ProductQuery
+CopyFrom	src/store.pb.cc	/^void ProductReply::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:store::ProductReply
+CopyFrom	src/store.pb.cc	/^void ProductReply::CopyFrom(const ProductReply& from) {$/;"	f	class:store::ProductReply
+CopyFrom	src/vendor.pb.cc	/^void BidQuery::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:vendor::BidQuery
+CopyFrom	src/vendor.pb.cc	/^void BidQuery::CopyFrom(const BidQuery& from) {$/;"	f	class:vendor::BidQuery
+CopyFrom	src/vendor.pb.cc	/^void BidReply::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:vendor::BidReply
+CopyFrom	src/vendor.pb.cc	/^void BidReply::CopyFrom(const BidReply& from) {$/;"	f	class:vendor::BidReply
+CopyFrom	test/store.pb.cc	/^void ProductInfo::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:store::ProductInfo
+CopyFrom	test/store.pb.cc	/^void ProductInfo::CopyFrom(const ProductInfo& from) {$/;"	f	class:store::ProductInfo
+CopyFrom	test/store.pb.cc	/^void ProductQuery::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:store::ProductQuery
+CopyFrom	test/store.pb.cc	/^void ProductQuery::CopyFrom(const ProductQuery& from) {$/;"	f	class:store::ProductQuery
+CopyFrom	test/store.pb.cc	/^void ProductReply::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:store::ProductReply
+CopyFrom	test/store.pb.cc	/^void ProductReply::CopyFrom(const ProductReply& from) {$/;"	f	class:store::ProductReply
+CopyFrom	test/vendor.pb.cc	/^void BidQuery::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:vendor::BidQuery
+CopyFrom	test/vendor.pb.cc	/^void BidQuery::CopyFrom(const BidQuery& from) {$/;"	f	class:vendor::BidQuery
+CopyFrom	test/vendor.pb.cc	/^void BidReply::CopyFrom(const ::google::protobuf::Message& from) {$/;"	f	class:vendor::BidReply
+CopyFrom	test/vendor.pb.cc	/^void BidReply::CopyFrom(const BidReply& from) {$/;"	f	class:vendor::BidReply
+DO_	src/store.pb.cc	228;"	d	file:
+DO_	src/store.pb.cc	270;"	d	file:
+DO_	src/store.pb.cc	509;"	d	file:
+DO_	src/store.pb.cc	551;"	d	file:
+DO_	src/store.pb.cc	772;"	d	file:
+DO_	src/store.pb.cc	829;"	d	file:
+DO_	src/vendor.pb.cc	203;"	d	file:
+DO_	src/vendor.pb.cc	245;"	d	file:
+DO_	src/vendor.pb.cc	490;"	d	file:
+DO_	src/vendor.pb.cc	547;"	d	file:
+DO_	test/store.pb.cc	228;"	d	file:
+DO_	test/store.pb.cc	270;"	d	file:
+DO_	test/store.pb.cc	509;"	d	file:
+DO_	test/store.pb.cc	551;"	d	file:
+DO_	test/store.pb.cc	772;"	d	file:
+DO_	test/store.pb.cc	829;"	d	file:
+DO_	test/vendor.pb.cc	203;"	d	file:
+DO_	test/vendor.pb.cc	245;"	d	file:
+DO_	test/vendor.pb.cc	490;"	d	file:
+DO_	test/vendor.pb.cc	547;"	d	file:
+GOOGLE_ATTRIBUTE_COLD	src/store.pb.cc	/^void protobuf_AddDesc_store_2eproto() GOOGLE_ATTRIBUTE_COLD;$/;"	m	namespace:store	file:
+GOOGLE_ATTRIBUTE_COLD	src/store.pb.cc	/^void protobuf_AssignDesc_store_2eproto() GOOGLE_ATTRIBUTE_COLD;$/;"	m	namespace:store	file:
+GOOGLE_ATTRIBUTE_COLD	src/store.pb.cc	/^void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;$/;"	m	namespace:store::__anon4	file:
+GOOGLE_ATTRIBUTE_COLD	src/vendor.pb.cc	/^void protobuf_AddDesc_vendor_2eproto() GOOGLE_ATTRIBUTE_COLD;$/;"	m	namespace:vendor	file:
+GOOGLE_ATTRIBUTE_COLD	src/vendor.pb.cc	/^void protobuf_AssignDesc_vendor_2eproto() GOOGLE_ATTRIBUTE_COLD;$/;"	m	namespace:vendor	file:
+GOOGLE_ATTRIBUTE_COLD	src/vendor.pb.cc	/^void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;$/;"	m	namespace:vendor::__anon2	file:
+GOOGLE_ATTRIBUTE_COLD	test/store.pb.cc	/^void protobuf_AddDesc_store_2eproto() GOOGLE_ATTRIBUTE_COLD;$/;"	m	namespace:store	file:
+GOOGLE_ATTRIBUTE_COLD	test/store.pb.cc	/^void protobuf_AssignDesc_store_2eproto() GOOGLE_ATTRIBUTE_COLD;$/;"	m	namespace:store	file:
+GOOGLE_ATTRIBUTE_COLD	test/store.pb.cc	/^void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;$/;"	m	namespace:store::__anon8	file:
+GOOGLE_ATTRIBUTE_COLD	test/vendor.pb.cc	/^void protobuf_AddDesc_vendor_2eproto() GOOGLE_ATTRIBUTE_COLD;$/;"	m	namespace:vendor	file:
+GOOGLE_ATTRIBUTE_COLD	test/vendor.pb.cc	/^void protobuf_AssignDesc_vendor_2eproto() GOOGLE_ATTRIBUTE_COLD;$/;"	m	namespace:vendor	file:
+GOOGLE_ATTRIBUTE_COLD	test/vendor.pb.cc	/^void protobuf_RegisterTypes(const ::std::string&) GOOGLE_ATTRIBUTE_COLD;$/;"	m	namespace:vendor::__anon6	file:
+GRPC_CPP_PLUGIN	src/Makefile	/^GRPC_CPP_PLUGIN = grpc_cpp_plugin$/;"	m
+GRPC_CPP_PLUGIN	test/Makefile	/^GRPC_CPP_PLUGIN = grpc_cpp_plugin$/;"	m
+GRPC_CPP_PLUGIN_PATH	src/Makefile	/^GRPC_CPP_PLUGIN_PATH ?= `which $(GRPC_CPP_PLUGIN)`$/;"	m
+GRPC_CPP_PLUGIN_PATH	test/Makefile	/^GRPC_CPP_PLUGIN_PATH ?= `which $(GRPC_CPP_PLUGIN)`$/;"	m
+GRPC_FINAL	src/store.grpc.pb.h	/^  class Stub GRPC_FINAL : public StubInterface {$/;"	c	class:store::GRPC_FINAL
+GRPC_FINAL	src/store.grpc.pb.h	/^class Store GRPC_FINAL {$/;"	c	namespace:store
+GRPC_FINAL	src/vendor.grpc.pb.h	/^  class Stub GRPC_FINAL : public StubInterface {$/;"	c	class:vendor::GRPC_FINAL
+GRPC_FINAL	src/vendor.grpc.pb.h	/^class Vendor GRPC_FINAL {$/;"	c	namespace:vendor
+GRPC_FINAL	test/store.grpc.pb.h	/^  class Stub GRPC_FINAL : public StubInterface {$/;"	c	class:store::GRPC_FINAL
+GRPC_FINAL	test/store.grpc.pb.h	/^class Store GRPC_FINAL {$/;"	c	namespace:store
+GRPC_FINAL	test/vendor.grpc.pb.h	/^  class Stub GRPC_FINAL : public StubInterface {$/;"	c	class:vendor::GRPC_FINAL
+GRPC_FINAL	test/vendor.grpc.pb.h	/^class Vendor GRPC_FINAL {$/;"	c	namespace:vendor
+GRPC_OVERRIDE	src/store.grpc.pb.h	/^    ::grpc::ClientAsyncResponseReader< ::store::ProductReply>* AsyncgetProductsRaw(::grpc::ClientContext* context, const ::store::ProductQuery& request, ::grpc::CompletionQueue* cq) GRPC_OVERRIDE;$/;"	m	class:store::GRPC_FINAL::GRPC_FINAL
+GRPC_OVERRIDE	src/store.grpc.pb.h	/^    ::grpc::Status getProducts(::grpc::ClientContext* context, const ::store::ProductQuery& request, ::store::ProductReply* response) GRPC_OVERRIDE;$/;"	m	class:store::GRPC_FINAL::GRPC_FINAL
+GRPC_OVERRIDE	src/vendor.grpc.pb.h	/^    ::grpc::ClientAsyncResponseReader< ::vendor::BidReply>* AsyncgetProductBidRaw(::grpc::ClientContext* context, const ::vendor::BidQuery& request, ::grpc::CompletionQueue* cq) GRPC_OVERRIDE;$/;"	m	class:vendor::GRPC_FINAL::GRPC_FINAL
+GRPC_OVERRIDE	src/vendor.grpc.pb.h	/^    ::grpc::Status getProductBid(::grpc::ClientContext* context, const ::vendor::BidQuery& request, ::vendor::BidReply* response) GRPC_OVERRIDE;$/;"	m	class:vendor::GRPC_FINAL::GRPC_FINAL
+GRPC_OVERRIDE	test/store.grpc.pb.h	/^    ::grpc::ClientAsyncResponseReader< ::store::ProductReply>* AsyncgetProductsRaw(::grpc::ClientContext* context, const ::store::ProductQuery& request, ::grpc::CompletionQueue* cq) GRPC_OVERRIDE;$/;"	m	class:store::GRPC_FINAL::GRPC_FINAL
+GRPC_OVERRIDE	test/store.grpc.pb.h	/^    ::grpc::Status getProducts(::grpc::ClientContext* context, const ::store::ProductQuery& request, ::store::ProductReply* response) GRPC_OVERRIDE;$/;"	m	class:store::GRPC_FINAL::GRPC_FINAL
+GRPC_OVERRIDE	test/vendor.grpc.pb.h	/^    ::grpc::ClientAsyncResponseReader< ::vendor::BidReply>* AsyncgetProductBidRaw(::grpc::ClientContext* context, const ::vendor::BidQuery& request, ::grpc::CompletionQueue* cq) GRPC_OVERRIDE;$/;"	m	class:vendor::GRPC_FINAL::GRPC_FINAL
+GRPC_OVERRIDE	test/vendor.grpc.pb.h	/^    ::grpc::Status getProductBid(::grpc::ClientContext* context, const ::vendor::BidQuery& request, ::vendor::BidReply* response) GRPC_OVERRIDE;$/;"	m	class:vendor::GRPC_FINAL::GRPC_FINAL
+GRPC_store_2eproto__INCLUDED	src/store.grpc.pb.h	5;"	d
+GRPC_store_2eproto__INCLUDED	test/store.grpc.pb.h	5;"	d
+GRPC_vendor_2eproto__INCLUDED	src/vendor.grpc.pb.h	5;"	d
+GRPC_vendor_2eproto__INCLUDED	test/vendor.grpc.pb.h	5;"	d
+GetArenaNoVirtual	src/store.pb.h	/^  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {$/;"	f	class:store::ProductInfo
+GetArenaNoVirtual	src/store.pb.h	/^  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {$/;"	f	class:store::ProductQuery
+GetArenaNoVirtual	src/store.pb.h	/^  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {$/;"	f	class:store::ProductReply
+GetArenaNoVirtual	src/vendor.pb.h	/^  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {$/;"	f	class:vendor::BidQuery
+GetArenaNoVirtual	src/vendor.pb.h	/^  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {$/;"	f	class:vendor::BidReply
+GetArenaNoVirtual	test/store.pb.h	/^  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {$/;"	f	class:store::ProductInfo
+GetArenaNoVirtual	test/store.pb.h	/^  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {$/;"	f	class:store::ProductQuery
+GetArenaNoVirtual	test/store.pb.h	/^  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {$/;"	f	class:store::ProductReply
+GetArenaNoVirtual	test/vendor.pb.h	/^  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {$/;"	f	class:vendor::BidQuery
+GetArenaNoVirtual	test/vendor.pb.h	/^  inline ::google::protobuf::Arena* GetArenaNoVirtual() const {$/;"	f	class:vendor::BidReply
+GetCachedSize	src/store.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:store::ProductInfo
+GetCachedSize	src/store.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:store::ProductQuery
+GetCachedSize	src/store.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:store::ProductReply
+GetCachedSize	src/vendor.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:vendor::BidQuery
+GetCachedSize	src/vendor.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:vendor::BidReply
+GetCachedSize	test/store.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:store::ProductInfo
+GetCachedSize	test/store.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:store::ProductQuery
+GetCachedSize	test/store.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:store::ProductReply
+GetCachedSize	test/vendor.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:vendor::BidQuery
+GetCachedSize	test/vendor.pb.h	/^  int GetCachedSize() const { return _cached_size_; }$/;"	f	class:vendor::BidReply
+GetMetadata	src/store.pb.cc	/^::google::protobuf::Metadata ProductInfo::GetMetadata() const {$/;"	f	class:store::ProductInfo
+GetMetadata	src/store.pb.cc	/^::google::protobuf::Metadata ProductQuery::GetMetadata() const {$/;"	f	class:store::ProductQuery
+GetMetadata	src/store.pb.cc	/^::google::protobuf::Metadata ProductReply::GetMetadata() const {$/;"	f	class:store::ProductReply
+GetMetadata	src/vendor.pb.cc	/^::google::protobuf::Metadata BidQuery::GetMetadata() const {$/;"	f	class:vendor::BidQuery
+GetMetadata	src/vendor.pb.cc	/^::google::protobuf::Metadata BidReply::GetMetadata() const {$/;"	f	class:vendor::BidReply
+GetMetadata	test/store.pb.cc	/^::google::protobuf::Metadata ProductInfo::GetMetadata() const {$/;"	f	class:store::ProductInfo
+GetMetadata	test/store.pb.cc	/^::google::protobuf::Metadata ProductQuery::GetMetadata() const {$/;"	f	class:store::ProductQuery
+GetMetadata	test/store.pb.cc	/^::google::protobuf::Metadata ProductReply::GetMetadata() const {$/;"	f	class:store::ProductReply
+GetMetadata	test/vendor.pb.cc	/^::google::protobuf::Metadata BidQuery::GetMetadata() const {$/;"	f	class:vendor::BidQuery
+GetMetadata	test/vendor.pb.cc	/^::google::protobuf::Metadata BidReply::GetMetadata() const {$/;"	f	class:vendor::BidReply
+HAS_PLUGIN	src/Makefile	/^HAS_PLUGIN = $(shell $(PLUGIN_CHECK_CMD) > \/dev\/null && echo true || echo false)$/;"	m
+HAS_PLUGIN	test/Makefile	/^HAS_PLUGIN = $(shell $(PLUGIN_CHECK_CMD) > \/dev\/null && echo true || echo false)$/;"	m
+HAS_PROTOC	src/Makefile	/^HAS_PROTOC = $(shell $(PROTOC_CMD) > \/dev\/null && echo true || echo false)$/;"	m
+HAS_PROTOC	test/Makefile	/^HAS_PROTOC = $(shell $(PROTOC_CMD) > \/dev\/null && echo true || echo false)$/;"	m
+HAS_VALID_PROTOC	src/Makefile	/^HAS_VALID_PROTOC = $(shell $(PROTOC_CHECK_CMD) 2> \/dev\/null && echo true || echo false)$/;"	m
+HAS_VALID_PROTOC	test/Makefile	/^HAS_VALID_PROTOC = $(shell $(PROTOC_CHECK_CMD) 2> \/dev\/null && echo true || echo false)$/;"	m
+INTERNAL_SUPPRESS_PROTOBUF_FIELD_DEPRECATION	src/store.pb.cc	4;"	d	file:
+INTERNAL_SUPPRESS_PROTOBUF_FIELD_DEPRECATION	src/vendor.pb.cc	4;"	d	file:
+INTERNAL_SUPPRESS_PROTOBUF_FIELD_DEPRECATION	test/store.pb.cc	4;"	d	file:
+INTERNAL_SUPPRESS_PROTOBUF_FIELD_DEPRECATION	test/vendor.pb.cc	4;"	d	file:
+InitAsDefaultInstance	src/store.pb.cc	/^void ProductInfo::InitAsDefaultInstance() {$/;"	f	class:store::ProductInfo
+InitAsDefaultInstance	src/store.pb.cc	/^void ProductQuery::InitAsDefaultInstance() {$/;"	f	class:store::ProductQuery
+InitAsDefaultInstance	src/store.pb.cc	/^void ProductReply::InitAsDefaultInstance() {$/;"	f	class:store::ProductReply
+InitAsDefaultInstance	src/vendor.pb.cc	/^void BidQuery::InitAsDefaultInstance() {$/;"	f	class:vendor::BidQuery
+InitAsDefaultInstance	src/vendor.pb.cc	/^void BidReply::InitAsDefaultInstance() {$/;"	f	class:vendor::BidReply
+InitAsDefaultInstance	test/store.pb.cc	/^void ProductInfo::InitAsDefaultInstance() {$/;"	f	class:store::ProductInfo
+InitAsDefaultInstance	test/store.pb.cc	/^void ProductQuery::InitAsDefaultInstance() {$/;"	f	class:store::ProductQuery
+InitAsDefaultInstance	test/store.pb.cc	/^void ProductReply::InitAsDefaultInstance() {$/;"	f	class:store::ProductReply
+InitAsDefaultInstance	test/vendor.pb.cc	/^void BidQuery::InitAsDefaultInstance() {$/;"	f	class:vendor::BidQuery
+InitAsDefaultInstance	test/vendor.pb.cc	/^void BidReply::InitAsDefaultInstance() {$/;"	f	class:vendor::BidReply
+InternalSerializeWithCachedSizesToArray	src/store.pb.cc	/^::google::protobuf::uint8* ProductInfo::InternalSerializeWithCachedSizesToArray($/;"	f	class:store::ProductInfo
+InternalSerializeWithCachedSizesToArray	src/store.pb.cc	/^::google::protobuf::uint8* ProductQuery::InternalSerializeWithCachedSizesToArray($/;"	f	class:store::ProductQuery
+InternalSerializeWithCachedSizesToArray	src/store.pb.cc	/^::google::protobuf::uint8* ProductReply::InternalSerializeWithCachedSizesToArray($/;"	f	class:store::ProductReply
+InternalSerializeWithCachedSizesToArray	src/vendor.pb.cc	/^::google::protobuf::uint8* BidQuery::InternalSerializeWithCachedSizesToArray($/;"	f	class:vendor::BidQuery
+InternalSerializeWithCachedSizesToArray	src/vendor.pb.cc	/^::google::protobuf::uint8* BidReply::InternalSerializeWithCachedSizesToArray($/;"	f	class:vendor::BidReply
+InternalSerializeWithCachedSizesToArray	test/store.pb.cc	/^::google::protobuf::uint8* ProductInfo::InternalSerializeWithCachedSizesToArray($/;"	f	class:store::ProductInfo
+InternalSerializeWithCachedSizesToArray	test/store.pb.cc	/^::google::protobuf::uint8* ProductQuery::InternalSerializeWithCachedSizesToArray($/;"	f	class:store::ProductQuery
+InternalSerializeWithCachedSizesToArray	test/store.pb.cc	/^::google::protobuf::uint8* ProductReply::InternalSerializeWithCachedSizesToArray($/;"	f	class:store::ProductReply
+InternalSerializeWithCachedSizesToArray	test/vendor.pb.cc	/^::google::protobuf::uint8* BidQuery::InternalSerializeWithCachedSizesToArray($/;"	f	class:vendor::BidQuery
+InternalSerializeWithCachedSizesToArray	test/vendor.pb.cc	/^::google::protobuf::uint8* BidReply::InternalSerializeWithCachedSizesToArray($/;"	f	class:vendor::BidReply
+InternalSwap	src/store.pb.cc	/^void ProductInfo::InternalSwap(ProductInfo* other) {$/;"	f	class:store::ProductInfo
+InternalSwap	src/store.pb.cc	/^void ProductQuery::InternalSwap(ProductQuery* other) {$/;"	f	class:store::ProductQuery
+InternalSwap	src/store.pb.cc	/^void ProductReply::InternalSwap(ProductReply* other) {$/;"	f	class:store::ProductReply
+InternalSwap	src/vendor.pb.cc	/^void BidQuery::InternalSwap(BidQuery* other) {$/;"	f	class:vendor::BidQuery
+InternalSwap	src/vendor.pb.cc	/^void BidReply::InternalSwap(BidReply* other) {$/;"	f	class:vendor::BidReply
+InternalSwap	test/store.pb.cc	/^void ProductInfo::InternalSwap(ProductInfo* other) {$/;"	f	class:store::ProductInfo
+InternalSwap	test/store.pb.cc	/^void ProductQuery::InternalSwap(ProductQuery* other) {$/;"	f	class:store::ProductQuery
+InternalSwap	test/store.pb.cc	/^void ProductReply::InternalSwap(ProductReply* other) {$/;"	f	class:store::ProductReply
+InternalSwap	test/vendor.pb.cc	/^void BidQuery::InternalSwap(BidQuery* other) {$/;"	f	class:vendor::BidQuery
+InternalSwap	test/vendor.pb.cc	/^void BidReply::InternalSwap(BidReply* other) {$/;"	f	class:vendor::BidReply
+IsInitialized	src/store.pb.cc	/^bool ProductInfo::IsInitialized() const {$/;"	f	class:store::ProductInfo
+IsInitialized	src/store.pb.cc	/^bool ProductQuery::IsInitialized() const {$/;"	f	class:store::ProductQuery
+IsInitialized	src/store.pb.cc	/^bool ProductReply::IsInitialized() const {$/;"	f	class:store::ProductReply
+IsInitialized	src/vendor.pb.cc	/^bool BidQuery::IsInitialized() const {$/;"	f	class:vendor::BidQuery
+IsInitialized	src/vendor.pb.cc	/^bool BidReply::IsInitialized() const {$/;"	f	class:vendor::BidReply
+IsInitialized	test/store.pb.cc	/^bool ProductInfo::IsInitialized() const {$/;"	f	class:store::ProductInfo
+IsInitialized	test/store.pb.cc	/^bool ProductQuery::IsInitialized() const {$/;"	f	class:store::ProductQuery
+IsInitialized	test/store.pb.cc	/^bool ProductReply::IsInitialized() const {$/;"	f	class:store::ProductReply
+IsInitialized	test/vendor.pb.cc	/^bool BidQuery::IsInitialized() const {$/;"	f	class:vendor::BidQuery
+IsInitialized	test/vendor.pb.cc	/^bool BidReply::IsInitialized() const {$/;"	f	class:vendor::BidReply
+MaybeArenaPtr	src/store.pb.h	/^  inline void* MaybeArenaPtr() const {$/;"	f	class:store::ProductInfo
+MaybeArenaPtr	src/store.pb.h	/^  inline void* MaybeArenaPtr() const {$/;"	f	class:store::ProductQuery
+MaybeArenaPtr	src/store.pb.h	/^  inline void* MaybeArenaPtr() const {$/;"	f	class:store::ProductReply
+MaybeArenaPtr	src/vendor.pb.h	/^  inline void* MaybeArenaPtr() const {$/;"	f	class:vendor::BidQuery
+MaybeArenaPtr	src/vendor.pb.h	/^  inline void* MaybeArenaPtr() const {$/;"	f	class:vendor::BidReply
+MaybeArenaPtr	test/store.pb.h	/^  inline void* MaybeArenaPtr() const {$/;"	f	class:store::ProductInfo
+MaybeArenaPtr	test/store.pb.h	/^  inline void* MaybeArenaPtr() const {$/;"	f	class:store::ProductQuery
+MaybeArenaPtr	test/store.pb.h	/^  inline void* MaybeArenaPtr() const {$/;"	f	class:store::ProductReply
+MaybeArenaPtr	test/vendor.pb.h	/^  inline void* MaybeArenaPtr() const {$/;"	f	class:vendor::BidQuery
+MaybeArenaPtr	test/vendor.pb.h	/^  inline void* MaybeArenaPtr() const {$/;"	f	class:vendor::BidReply
+MergeFrom	src/store.pb.cc	/^void ProductInfo::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:store::ProductInfo
+MergeFrom	src/store.pb.cc	/^void ProductInfo::MergeFrom(const ProductInfo& from) {$/;"	f	class:store::ProductInfo
+MergeFrom	src/store.pb.cc	/^void ProductQuery::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:store::ProductQuery
+MergeFrom	src/store.pb.cc	/^void ProductQuery::MergeFrom(const ProductQuery& from) {$/;"	f	class:store::ProductQuery
+MergeFrom	src/store.pb.cc	/^void ProductReply::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:store::ProductReply
+MergeFrom	src/store.pb.cc	/^void ProductReply::MergeFrom(const ProductReply& from) {$/;"	f	class:store::ProductReply
+MergeFrom	src/vendor.pb.cc	/^void BidQuery::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:vendor::BidQuery
+MergeFrom	src/vendor.pb.cc	/^void BidQuery::MergeFrom(const BidQuery& from) {$/;"	f	class:vendor::BidQuery
+MergeFrom	src/vendor.pb.cc	/^void BidReply::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:vendor::BidReply
+MergeFrom	src/vendor.pb.cc	/^void BidReply::MergeFrom(const BidReply& from) {$/;"	f	class:vendor::BidReply
+MergeFrom	test/store.pb.cc	/^void ProductInfo::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:store::ProductInfo
+MergeFrom	test/store.pb.cc	/^void ProductInfo::MergeFrom(const ProductInfo& from) {$/;"	f	class:store::ProductInfo
+MergeFrom	test/store.pb.cc	/^void ProductQuery::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:store::ProductQuery
+MergeFrom	test/store.pb.cc	/^void ProductQuery::MergeFrom(const ProductQuery& from) {$/;"	f	class:store::ProductQuery
+MergeFrom	test/store.pb.cc	/^void ProductReply::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:store::ProductReply
+MergeFrom	test/store.pb.cc	/^void ProductReply::MergeFrom(const ProductReply& from) {$/;"	f	class:store::ProductReply
+MergeFrom	test/vendor.pb.cc	/^void BidQuery::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:vendor::BidQuery
+MergeFrom	test/vendor.pb.cc	/^void BidQuery::MergeFrom(const BidQuery& from) {$/;"	f	class:vendor::BidQuery
+MergeFrom	test/vendor.pb.cc	/^void BidReply::MergeFrom(const ::google::protobuf::Message& from) {$/;"	f	class:vendor::BidReply
+MergeFrom	test/vendor.pb.cc	/^void BidReply::MergeFrom(const BidReply& from) {$/;"	f	class:vendor::BidReply
+MergePartialFromCodedStream	src/store.pb.cc	/^bool ProductInfo::MergePartialFromCodedStream($/;"	f	class:store::ProductInfo
+MergePartialFromCodedStream	src/store.pb.cc	/^bool ProductQuery::MergePartialFromCodedStream($/;"	f	class:store::ProductQuery
+MergePartialFromCodedStream	src/store.pb.cc	/^bool ProductReply::MergePartialFromCodedStream($/;"	f	class:store::ProductReply
+MergePartialFromCodedStream	src/vendor.pb.cc	/^bool BidQuery::MergePartialFromCodedStream($/;"	f	class:vendor::BidQuery
+MergePartialFromCodedStream	src/vendor.pb.cc	/^bool BidReply::MergePartialFromCodedStream($/;"	f	class:vendor::BidReply
+MergePartialFromCodedStream	test/store.pb.cc	/^bool ProductInfo::MergePartialFromCodedStream($/;"	f	class:store::ProductInfo
+MergePartialFromCodedStream	test/store.pb.cc	/^bool ProductQuery::MergePartialFromCodedStream($/;"	f	class:store::ProductQuery
+MergePartialFromCodedStream	test/store.pb.cc	/^bool ProductReply::MergePartialFromCodedStream($/;"	f	class:store::ProductReply
+MergePartialFromCodedStream	test/vendor.pb.cc	/^bool BidQuery::MergePartialFromCodedStream($/;"	f	class:vendor::BidQuery
+MergePartialFromCodedStream	test/vendor.pb.cc	/^bool BidReply::MergePartialFromCodedStream($/;"	f	class:vendor::BidReply
+New	src/store.pb.cc	/^ProductInfo* ProductInfo::New(::google::protobuf::Arena* arena) const {$/;"	f	class:store::ProductInfo
+New	src/store.pb.cc	/^ProductQuery* ProductQuery::New(::google::protobuf::Arena* arena) const {$/;"	f	class:store::ProductQuery
+New	src/store.pb.cc	/^ProductReply* ProductReply::New(::google::protobuf::Arena* arena) const {$/;"	f	class:store::ProductReply
+New	src/store.pb.h	/^  inline ProductInfo* New() const { return New(NULL); }$/;"	f	class:store::ProductInfo
+New	src/store.pb.h	/^  inline ProductQuery* New() const { return New(NULL); }$/;"	f	class:store::ProductQuery
+New	src/store.pb.h	/^  inline ProductReply* New() const { return New(NULL); }$/;"	f	class:store::ProductReply
+New	src/vendor.pb.cc	/^BidQuery* BidQuery::New(::google::protobuf::Arena* arena) const {$/;"	f	class:vendor::BidQuery
+New	src/vendor.pb.cc	/^BidReply* BidReply::New(::google::protobuf::Arena* arena) const {$/;"	f	class:vendor::BidReply
+New	src/vendor.pb.h	/^  inline BidQuery* New() const { return New(NULL); }$/;"	f	class:vendor::BidQuery
+New	src/vendor.pb.h	/^  inline BidReply* New() const { return New(NULL); }$/;"	f	class:vendor::BidReply
+New	test/store.pb.cc	/^ProductInfo* ProductInfo::New(::google::protobuf::Arena* arena) const {$/;"	f	class:store::ProductInfo
+New	test/store.pb.cc	/^ProductQuery* ProductQuery::New(::google::protobuf::Arena* arena) const {$/;"	f	class:store::ProductQuery
+New	test/store.pb.cc	/^ProductReply* ProductReply::New(::google::protobuf::Arena* arena) const {$/;"	f	class:store::ProductReply
+New	test/store.pb.h	/^  inline ProductInfo* New() const { return New(NULL); }$/;"	f	class:store::ProductInfo
+New	test/store.pb.h	/^  inline ProductQuery* New() const { return New(NULL); }$/;"	f	class:store::ProductQuery
+New	test/store.pb.h	/^  inline ProductReply* New() const { return New(NULL); }$/;"	f	class:store::ProductReply
+New	test/vendor.pb.cc	/^BidQuery* BidQuery::New(::google::protobuf::Arena* arena) const {$/;"	f	class:vendor::BidQuery
+New	test/vendor.pb.cc	/^BidReply* BidReply::New(::google::protobuf::Arena* arena) const {$/;"	f	class:vendor::BidReply
+New	test/vendor.pb.h	/^  inline BidQuery* New() const { return New(NULL); }$/;"	f	class:vendor::BidQuery
+New	test/vendor.pb.h	/^  inline BidReply* New() const { return New(NULL); }$/;"	f	class:vendor::BidReply
+NewStub	src/store.grpc.pb.cc	/^std::unique_ptr< Store::Stub> Store::NewStub(const std::shared_ptr< ::grpc::ChannelInterface>& channel, const ::grpc::StubOptions& options) {$/;"	f	class:store::Store
+NewStub	src/vendor.grpc.pb.cc	/^std::unique_ptr< Vendor::Stub> Vendor::NewStub(const std::shared_ptr< ::grpc::ChannelInterface>& channel, const ::grpc::StubOptions& options) {$/;"	f	class:vendor::Vendor
+NewStub	test/store.grpc.pb.cc	/^std::unique_ptr< Store::Stub> Store::NewStub(const std::shared_ptr< ::grpc::ChannelInterface>& channel, const ::grpc::StubOptions& options) {$/;"	f	class:store::Store
+NewStub	test/vendor.grpc.pb.cc	/^std::unique_ptr< Vendor::Stub> Vendor::NewStub(const std::shared_ptr< ::grpc::ChannelInterface>& channel, const ::grpc::StubOptions& options) {$/;"	f	class:vendor::Vendor
+PLUGIN_CHECK_CMD	src/Makefile	/^PLUGIN_CHECK_CMD = which $(GRPC_CPP_PLUGIN)$/;"	m
+PLUGIN_CHECK_CMD	test/Makefile	/^PLUGIN_CHECK_CMD = which $(GRPC_CPP_PLUGIN)$/;"	m
+PROTOBUF_store_2eproto__INCLUDED	src/store.pb.h	5;"	d
+PROTOBUF_store_2eproto__INCLUDED	test/store.pb.h	5;"	d
+PROTOBUF_vendor_2eproto__INCLUDED	src/vendor.pb.h	5;"	d
+PROTOBUF_vendor_2eproto__INCLUDED	test/vendor.pb.h	5;"	d
+PROTOC	src/Makefile	/^PROTOC = protoc$/;"	m
+PROTOC	test/Makefile	/^PROTOC = protoc$/;"	m
+PROTOC_CHECK_CMD	src/Makefile	/^PROTOC_CHECK_CMD = $(PROTOC) --version | grep -q libprotoc.3$/;"	m
+PROTOC_CHECK_CMD	test/Makefile	/^PROTOC_CHECK_CMD = $(PROTOC) --version | grep -q libprotoc.3$/;"	m
+PROTOC_CMD	src/Makefile	/^PROTOC_CMD = which $(PROTOC)$/;"	m
+PROTOC_CMD	test/Makefile	/^PROTOC_CMD = which $(PROTOC)$/;"	m
+PROTOS_PATH	src/Makefile	/^PROTOS_PATH = ..\/external\/protos\/$/;"	m
+PROTOS_PATH	test/Makefile	/^PROTOS_PATH = ..\/external\/protos\/$/;"	m
+ProductInfo	src/store.pb.cc	/^ProductInfo::ProductInfo()$/;"	f	class:store::ProductInfo
+ProductInfo	src/store.pb.cc	/^ProductInfo::ProductInfo(const ProductInfo& from)$/;"	f	class:store::ProductInfo
+ProductInfo	src/store.pb.h	/^class ProductInfo : public ::google::protobuf::Message \/* @@protoc_insertion_point(class_definition:store.ProductInfo) *\/ {$/;"	c	namespace:store
+ProductInfo	test/store.pb.cc	/^ProductInfo::ProductInfo()$/;"	f	class:store::ProductInfo
+ProductInfo	test/store.pb.cc	/^ProductInfo::ProductInfo(const ProductInfo& from)$/;"	f	class:store::ProductInfo
+ProductInfo	test/store.pb.h	/^class ProductInfo : public ::google::protobuf::Message \/* @@protoc_insertion_point(class_definition:store.ProductInfo) *\/ {$/;"	c	namespace:store
+ProductInfo_descriptor_	src/store.pb.cc	/^const ::google::protobuf::Descriptor* ProductInfo_descriptor_ = NULL;$/;"	m	namespace:store::__anon3	file:
+ProductInfo_descriptor_	test/store.pb.cc	/^const ::google::protobuf::Descriptor* ProductInfo_descriptor_ = NULL;$/;"	m	namespace:store::__anon7	file:
+ProductInfo_reflection_	src/store.pb.cc	/^  ProductInfo_reflection_ = NULL;$/;"	m	namespace:store::__anon3	file:
+ProductInfo_reflection_	test/store.pb.cc	/^  ProductInfo_reflection_ = NULL;$/;"	m	namespace:store::__anon7	file:
+ProductQuery	src/store.pb.cc	/^ProductQuery::ProductQuery()$/;"	f	class:store::ProductQuery
+ProductQuery	src/store.pb.cc	/^ProductQuery::ProductQuery(const ProductQuery& from)$/;"	f	class:store::ProductQuery
+ProductQuery	src/store.pb.h	/^class ProductQuery : public ::google::protobuf::Message \/* @@protoc_insertion_point(class_definition:store.ProductQuery) *\/ {$/;"	c	namespace:store
+ProductQuery	test/store.pb.cc	/^ProductQuery::ProductQuery()$/;"	f	class:store::ProductQuery
+ProductQuery	test/store.pb.cc	/^ProductQuery::ProductQuery(const ProductQuery& from)$/;"	f	class:store::ProductQuery
+ProductQuery	test/store.pb.h	/^class ProductQuery : public ::google::protobuf::Message \/* @@protoc_insertion_point(class_definition:store.ProductQuery) *\/ {$/;"	c	namespace:store
+ProductQueryResult	test/product_queries_util.h	/^struct ProductQueryResult {$/;"	s
+ProductQuery_descriptor_	src/store.pb.cc	/^const ::google::protobuf::Descriptor* ProductQuery_descriptor_ = NULL;$/;"	m	namespace:store::__anon3	file:
+ProductQuery_descriptor_	test/store.pb.cc	/^const ::google::protobuf::Descriptor* ProductQuery_descriptor_ = NULL;$/;"	m	namespace:store::__anon7	file:
+ProductQuery_reflection_	src/store.pb.cc	/^  ProductQuery_reflection_ = NULL;$/;"	m	namespace:store::__anon3	file:
+ProductQuery_reflection_	test/store.pb.cc	/^  ProductQuery_reflection_ = NULL;$/;"	m	namespace:store::__anon7	file:
+ProductReply	src/store.pb.cc	/^ProductReply::ProductReply()$/;"	f	class:store::ProductReply
+ProductReply	src/store.pb.cc	/^ProductReply::ProductReply(const ProductReply& from)$/;"	f	class:store::ProductReply
+ProductReply	src/store.pb.h	/^class ProductReply : public ::google::protobuf::Message \/* @@protoc_insertion_point(class_definition:store.ProductReply) *\/ {$/;"	c	namespace:store
+ProductReply	test/store.pb.cc	/^ProductReply::ProductReply()$/;"	f	class:store::ProductReply
+ProductReply	test/store.pb.cc	/^ProductReply::ProductReply(const ProductReply& from)$/;"	f	class:store::ProductReply
+ProductReply	test/store.pb.h	/^class ProductReply : public ::google::protobuf::Message \/* @@protoc_insertion_point(class_definition:store.ProductReply) *\/ {$/;"	c	namespace:store
+ProductReply_descriptor_	src/store.pb.cc	/^const ::google::protobuf::Descriptor* ProductReply_descriptor_ = NULL;$/;"	m	namespace:store::__anon3	file:
+ProductReply_descriptor_	test/store.pb.cc	/^const ::google::protobuf::Descriptor* ProductReply_descriptor_ = NULL;$/;"	m	namespace:store::__anon7	file:
+ProductReply_reflection_	src/store.pb.cc	/^  ProductReply_reflection_ = NULL;$/;"	m	namespace:store::__anon3	file:
+ProductReply_reflection_	test/store.pb.cc	/^  ProductReply_reflection_ = NULL;$/;"	m	namespace:store::__anon7	file:
+ProductSpec	test/product_queries_util.h	/^	ProductSpec(const std::string& name)$/;"	f	struct:ProductSpec
+ProductSpec	test/product_queries_util.h	/^struct ProductSpec {$/;"	s
+RequestgetProductBid	src/vendor.grpc.pb.h	/^    void RequestgetProductBid(::grpc::ServerContext* context, ::vendor::BidQuery* request, ::grpc::ServerAsyncResponseWriter< ::vendor::BidReply>* response, ::grpc::CompletionQueue* new_call_cq, ::grpc::ServerCompletionQueue* notification_cq, void *tag) {$/;"	f	class:vendor::GRPC_FINAL::WithAsyncMethod_getProductBid
+RequestgetProductBid	test/vendor.grpc.pb.h	/^    void RequestgetProductBid(::grpc::ServerContext* context, ::vendor::BidQuery* request, ::grpc::ServerAsyncResponseWriter< ::vendor::BidReply>* response, ::grpc::CompletionQueue* new_call_cq, ::grpc::ServerCompletionQueue* notification_cq, void *tag) {$/;"	f	class:vendor::GRPC_FINAL::WithAsyncMethod_getProductBid
+RequestgetProducts	src/store.grpc.pb.h	/^    void RequestgetProducts(::grpc::ServerContext* context, ::store::ProductQuery* request, ::grpc::ServerAsyncResponseWriter< ::store::ProductReply>* response, ::grpc::CompletionQueue* new_call_cq, ::grpc::ServerCompletionQueue* notification_cq, void *tag) {$/;"	f	class:store::GRPC_FINAL::WithAsyncMethod_getProducts
+RequestgetProducts	test/store.grpc.pb.h	/^    void RequestgetProducts(::grpc::ServerContext* context, ::store::ProductQuery* request, ::grpc::ServerAsyncResponseWriter< ::store::ProductReply>* response, ::grpc::CompletionQueue* new_call_cq, ::grpc::ServerCompletionQueue* notification_cq, void *tag) {$/;"	f	class:store::GRPC_FINAL::WithAsyncMethod_getProducts
+SYSTEM_OK	src/Makefile	/^SYSTEM_OK = false$/;"	m
+SYSTEM_OK	src/Makefile	/^SYSTEM_OK = true$/;"	m
+SYSTEM_OK	test/Makefile	/^SYSTEM_OK = false$/;"	m
+SYSTEM_OK	test/Makefile	/^SYSTEM_OK = true$/;"	m
+SerializeWithCachedSizes	src/store.pb.cc	/^void ProductInfo::SerializeWithCachedSizes($/;"	f	class:store::ProductInfo
+SerializeWithCachedSizes	src/store.pb.cc	/^void ProductQuery::SerializeWithCachedSizes($/;"	f	class:store::ProductQuery
+SerializeWithCachedSizes	src/store.pb.cc	/^void ProductReply::SerializeWithCachedSizes($/;"	f	class:store::ProductReply
+SerializeWithCachedSizes	src/vendor.pb.cc	/^void BidQuery::SerializeWithCachedSizes($/;"	f	class:vendor::BidQuery
+SerializeWithCachedSizes	src/vendor.pb.cc	/^void BidReply::SerializeWithCachedSizes($/;"	f	class:vendor::BidReply
+SerializeWithCachedSizes	test/store.pb.cc	/^void ProductInfo::SerializeWithCachedSizes($/;"	f	class:store::ProductInfo
+SerializeWithCachedSizes	test/store.pb.cc	/^void ProductQuery::SerializeWithCachedSizes($/;"	f	class:store::ProductQuery
+SerializeWithCachedSizes	test/store.pb.cc	/^void ProductReply::SerializeWithCachedSizes($/;"	f	class:store::ProductReply
+SerializeWithCachedSizes	test/vendor.pb.cc	/^void BidQuery::SerializeWithCachedSizes($/;"	f	class:vendor::BidQuery
+SerializeWithCachedSizes	test/vendor.pb.cc	/^void BidReply::SerializeWithCachedSizes($/;"	f	class:vendor::BidReply
+SerializeWithCachedSizesToArray	src/store.pb.h	/^  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {$/;"	f	class:store::ProductInfo
+SerializeWithCachedSizesToArray	src/store.pb.h	/^  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {$/;"	f	class:store::ProductQuery
+SerializeWithCachedSizesToArray	src/store.pb.h	/^  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {$/;"	f	class:store::ProductReply
+SerializeWithCachedSizesToArray	src/vendor.pb.h	/^  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {$/;"	f	class:vendor::BidQuery
+SerializeWithCachedSizesToArray	src/vendor.pb.h	/^  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {$/;"	f	class:vendor::BidReply
+SerializeWithCachedSizesToArray	test/store.pb.h	/^  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {$/;"	f	class:store::ProductInfo
+SerializeWithCachedSizesToArray	test/store.pb.h	/^  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {$/;"	f	class:store::ProductQuery
+SerializeWithCachedSizesToArray	test/store.pb.h	/^  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {$/;"	f	class:store::ProductReply
+SerializeWithCachedSizesToArray	test/vendor.pb.h	/^  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {$/;"	f	class:vendor::BidQuery
+SerializeWithCachedSizesToArray	test/vendor.pb.h	/^  ::google::protobuf::uint8* SerializeWithCachedSizesToArray(::google::protobuf::uint8* output) const {$/;"	f	class:vendor::BidReply
+Service	src/store.grpc.pb.cc	/^Store::Service::Service() {$/;"	f	class:store::Store::Service
+Service	src/store.grpc.pb.h	/^  class Service : public ::grpc::Service {$/;"	c	class:store::GRPC_FINAL
+Service	src/vendor.grpc.pb.cc	/^Vendor::Service::Service() {$/;"	f	class:vendor::Vendor::Service
+Service	src/vendor.grpc.pb.h	/^  class Service : public ::grpc::Service {$/;"	c	class:vendor::GRPC_FINAL
+Service	test/store.grpc.pb.cc	/^Store::Service::Service() {$/;"	f	class:store::Store::Service
+Service	test/store.grpc.pb.h	/^  class Service : public ::grpc::Service {$/;"	c	class:store::GRPC_FINAL
+Service	test/vendor.grpc.pb.cc	/^Vendor::Service::Service() {$/;"	f	class:vendor::Vendor::Service
+Service	test/vendor.grpc.pb.h	/^  class Service : public ::grpc::Service {$/;"	c	class:vendor::GRPC_FINAL
+SetCachedSize	src/store.pb.cc	/^void ProductInfo::SetCachedSize(int size) const {$/;"	f	class:store::ProductInfo
+SetCachedSize	src/store.pb.cc	/^void ProductQuery::SetCachedSize(int size) const {$/;"	f	class:store::ProductQuery
+SetCachedSize	src/store.pb.cc	/^void ProductReply::SetCachedSize(int size) const {$/;"	f	class:store::ProductReply
+SetCachedSize	src/vendor.pb.cc	/^void BidQuery::SetCachedSize(int size) const {$/;"	f	class:vendor::BidQuery
+SetCachedSize	src/vendor.pb.cc	/^void BidReply::SetCachedSize(int size) const {$/;"	f	class:vendor::BidReply
+SetCachedSize	test/store.pb.cc	/^void ProductInfo::SetCachedSize(int size) const {$/;"	f	class:store::ProductInfo
+SetCachedSize	test/store.pb.cc	/^void ProductQuery::SetCachedSize(int size) const {$/;"	f	class:store::ProductQuery
+SetCachedSize	test/store.pb.cc	/^void ProductReply::SetCachedSize(int size) const {$/;"	f	class:store::ProductReply
+SetCachedSize	test/vendor.pb.cc	/^void BidQuery::SetCachedSize(int size) const {$/;"	f	class:vendor::BidQuery
+SetCachedSize	test/vendor.pb.cc	/^void BidReply::SetCachedSize(int size) const {$/;"	f	class:vendor::BidReply
+SharedCtor	src/store.pb.cc	/^void ProductInfo::SharedCtor() {$/;"	f	class:store::ProductInfo
+SharedCtor	src/store.pb.cc	/^void ProductQuery::SharedCtor() {$/;"	f	class:store::ProductQuery
+SharedCtor	src/store.pb.cc	/^void ProductReply::SharedCtor() {$/;"	f	class:store::ProductReply
+SharedCtor	src/vendor.pb.cc	/^void BidQuery::SharedCtor() {$/;"	f	class:vendor::BidQuery
+SharedCtor	src/vendor.pb.cc	/^void BidReply::SharedCtor() {$/;"	f	class:vendor::BidReply
+SharedCtor	test/store.pb.cc	/^void ProductInfo::SharedCtor() {$/;"	f	class:store::ProductInfo
+SharedCtor	test/store.pb.cc	/^void ProductQuery::SharedCtor() {$/;"	f	class:store::ProductQuery
+SharedCtor	test/store.pb.cc	/^void ProductReply::SharedCtor() {$/;"	f	class:store::ProductReply
+SharedCtor	test/vendor.pb.cc	/^void BidQuery::SharedCtor() {$/;"	f	class:vendor::BidQuery
+SharedCtor	test/vendor.pb.cc	/^void BidReply::SharedCtor() {$/;"	f	class:vendor::BidReply
+SharedDtor	src/store.pb.cc	/^void ProductInfo::SharedDtor() {$/;"	f	class:store::ProductInfo
+SharedDtor	src/store.pb.cc	/^void ProductQuery::SharedDtor() {$/;"	f	class:store::ProductQuery
+SharedDtor	src/store.pb.cc	/^void ProductReply::SharedDtor() {$/;"	f	class:store::ProductReply
+SharedDtor	src/vendor.pb.cc	/^void BidQuery::SharedDtor() {$/;"	f	class:vendor::BidQuery
+SharedDtor	src/vendor.pb.cc	/^void BidReply::SharedDtor() {$/;"	f	class:vendor::BidReply
+SharedDtor	test/store.pb.cc	/^void ProductInfo::SharedDtor() {$/;"	f	class:store::ProductInfo
+SharedDtor	test/store.pb.cc	/^void ProductQuery::SharedDtor() {$/;"	f	class:store::ProductQuery
+SharedDtor	test/store.pb.cc	/^void ProductReply::SharedDtor() {$/;"	f	class:store::ProductReply
+SharedDtor	test/vendor.pb.cc	/^void BidQuery::SharedDtor() {$/;"	f	class:vendor::BidQuery
+SharedDtor	test/vendor.pb.cc	/^void BidReply::SharedDtor() {$/;"	f	class:vendor::BidReply
+StaticDescriptorInitializer_store_2eproto	src/store.pb.cc	/^  StaticDescriptorInitializer_store_2eproto() {$/;"	f	struct:store::StaticDescriptorInitializer_store_2eproto
+StaticDescriptorInitializer_store_2eproto	src/store.pb.cc	/^struct StaticDescriptorInitializer_store_2eproto {$/;"	s	namespace:store	file:
+StaticDescriptorInitializer_store_2eproto	test/store.pb.cc	/^  StaticDescriptorInitializer_store_2eproto() {$/;"	f	struct:store::StaticDescriptorInitializer_store_2eproto
+StaticDescriptorInitializer_store_2eproto	test/store.pb.cc	/^struct StaticDescriptorInitializer_store_2eproto {$/;"	s	namespace:store	file:
+StaticDescriptorInitializer_vendor_2eproto	src/vendor.pb.cc	/^  StaticDescriptorInitializer_vendor_2eproto() {$/;"	f	struct:vendor::StaticDescriptorInitializer_vendor_2eproto
+StaticDescriptorInitializer_vendor_2eproto	src/vendor.pb.cc	/^struct StaticDescriptorInitializer_vendor_2eproto {$/;"	s	namespace:vendor	file:
+StaticDescriptorInitializer_vendor_2eproto	test/vendor.pb.cc	/^  StaticDescriptorInitializer_vendor_2eproto() {$/;"	f	struct:vendor::StaticDescriptorInitializer_vendor_2eproto
+StaticDescriptorInitializer_vendor_2eproto	test/vendor.pb.cc	/^struct StaticDescriptorInitializer_vendor_2eproto {$/;"	s	namespace:vendor	file:
+StoreClient	test/client.cc	/^StoreClient::StoreClient(std::shared_ptr<Channel> channel)$/;"	f	class:StoreClient
+StoreClient	test/client.cc	/^class StoreClient {$/;"	c	file:
+Store_method_names	src/store.grpc.pb.cc	/^static const char* Store_method_names[] = {$/;"	m	namespace:store	file:
+Store_method_names	test/store.grpc.pb.cc	/^static const char* Store_method_names[] = {$/;"	m	namespace:store	file:
+Stub	src/store.grpc.pb.cc	/^Store::Stub::Stub(const std::shared_ptr< ::grpc::ChannelInterface>& channel)$/;"	f	class:store::Store::Stub
+Stub	src/vendor.grpc.pb.cc	/^Vendor::Stub::Stub(const std::shared_ptr< ::grpc::ChannelInterface>& channel)$/;"	f	class:vendor::Vendor::Stub
+Stub	test/store.grpc.pb.cc	/^Store::Stub::Stub(const std::shared_ptr< ::grpc::ChannelInterface>& channel)$/;"	f	class:store::Store::Stub
+Stub	test/vendor.grpc.pb.cc	/^Vendor::Stub::Stub(const std::shared_ptr< ::grpc::ChannelInterface>& channel)$/;"	f	class:vendor::Vendor::Stub
+StubInterface	src/store.grpc.pb.h	/^  class StubInterface {$/;"	c	class:store::GRPC_FINAL
+StubInterface	src/vendor.grpc.pb.h	/^  class StubInterface {$/;"	c	class:vendor::GRPC_FINAL
+StubInterface	test/store.grpc.pb.h	/^  class StubInterface {$/;"	c	class:store::GRPC_FINAL
+StubInterface	test/vendor.grpc.pb.h	/^  class StubInterface {$/;"	c	class:vendor::GRPC_FINAL
+Swap	src/store.pb.cc	/^void ProductInfo::Swap(ProductInfo* other) {$/;"	f	class:store::ProductInfo
+Swap	src/store.pb.cc	/^void ProductQuery::Swap(ProductQuery* other) {$/;"	f	class:store::ProductQuery
+Swap	src/store.pb.cc	/^void ProductReply::Swap(ProductReply* other) {$/;"	f	class:store::ProductReply
+Swap	src/vendor.pb.cc	/^void BidQuery::Swap(BidQuery* other) {$/;"	f	class:vendor::BidQuery
+Swap	src/vendor.pb.cc	/^void BidReply::Swap(BidReply* other) {$/;"	f	class:vendor::BidReply
+Swap	test/store.pb.cc	/^void ProductInfo::Swap(ProductInfo* other) {$/;"	f	class:store::ProductInfo
+Swap	test/store.pb.cc	/^void ProductQuery::Swap(ProductQuery* other) {$/;"	f	class:store::ProductQuery
+Swap	test/store.pb.cc	/^void ProductReply::Swap(ProductReply* other) {$/;"	f	class:store::ProductReply
+Swap	test/vendor.pb.cc	/^void BidQuery::Swap(BidQuery* other) {$/;"	f	class:vendor::BidQuery
+Swap	test/vendor.pb.cc	/^void BidReply::Swap(BidReply* other) {$/;"	f	class:vendor::BidReply
+VendorService	test/vendor.cc	/^    VendorService(const std::string& server_address) : id_("Vendor_" + server_address) {}$/;"	f	class:final
+Vendor_method_names	src/vendor.grpc.pb.cc	/^static const char* Vendor_method_names[] = {$/;"	m	namespace:vendor	file:
+Vendor_method_names	test/vendor.grpc.pb.cc	/^static const char* Vendor_method_names[] = {$/;"	m	namespace:vendor	file:
+WithAsyncMethod_getProductBid	src/vendor.grpc.pb.h	/^    WithAsyncMethod_getProductBid() {$/;"	f	class:vendor::GRPC_FINAL::WithAsyncMethod_getProductBid
+WithAsyncMethod_getProductBid	src/vendor.grpc.pb.h	/^  class WithAsyncMethod_getProductBid : public BaseClass {$/;"	c	class:vendor::GRPC_FINAL
+WithAsyncMethod_getProductBid	test/vendor.grpc.pb.h	/^    WithAsyncMethod_getProductBid() {$/;"	f	class:vendor::GRPC_FINAL::WithAsyncMethod_getProductBid
+WithAsyncMethod_getProductBid	test/vendor.grpc.pb.h	/^  class WithAsyncMethod_getProductBid : public BaseClass {$/;"	c	class:vendor::GRPC_FINAL
+WithAsyncMethod_getProducts	src/store.grpc.pb.h	/^    WithAsyncMethod_getProducts() {$/;"	f	class:store::GRPC_FINAL::WithAsyncMethod_getProducts
+WithAsyncMethod_getProducts	src/store.grpc.pb.h	/^  class WithAsyncMethod_getProducts : public BaseClass {$/;"	c	class:store::GRPC_FINAL
+WithAsyncMethod_getProducts	test/store.grpc.pb.h	/^    WithAsyncMethod_getProducts() {$/;"	f	class:store::GRPC_FINAL::WithAsyncMethod_getProducts
+WithAsyncMethod_getProducts	test/store.grpc.pb.h	/^  class WithAsyncMethod_getProducts : public BaseClass {$/;"	c	class:store::GRPC_FINAL
+WithGenericMethod_getProductBid	src/vendor.grpc.pb.h	/^    WithGenericMethod_getProductBid() {$/;"	f	class:vendor::GRPC_FINAL::WithGenericMethod_getProductBid
+WithGenericMethod_getProductBid	src/vendor.grpc.pb.h	/^  class WithGenericMethod_getProductBid : public BaseClass {$/;"	c	class:vendor::GRPC_FINAL
+WithGenericMethod_getProductBid	test/vendor.grpc.pb.h	/^    WithGenericMethod_getProductBid() {$/;"	f	class:vendor::GRPC_FINAL::WithGenericMethod_getProductBid
+WithGenericMethod_getProductBid	test/vendor.grpc.pb.h	/^  class WithGenericMethod_getProductBid : public BaseClass {$/;"	c	class:vendor::GRPC_FINAL
+WithGenericMethod_getProducts	src/store.grpc.pb.h	/^    WithGenericMethod_getProducts() {$/;"	f	class:store::GRPC_FINAL::WithGenericMethod_getProducts
+WithGenericMethod_getProducts	src/store.grpc.pb.h	/^  class WithGenericMethod_getProducts : public BaseClass {$/;"	c	class:store::GRPC_FINAL
+WithGenericMethod_getProducts	test/store.grpc.pb.h	/^    WithGenericMethod_getProducts() {$/;"	f	class:store::GRPC_FINAL::WithGenericMethod_getProducts
+WithGenericMethod_getProducts	test/store.grpc.pb.h	/^  class WithGenericMethod_getProducts : public BaseClass {$/;"	c	class:store::GRPC_FINAL
+_cached_size_	src/store.pb.h	/^  mutable int _cached_size_;$/;"	m	class:store::ProductInfo
+_cached_size_	src/store.pb.h	/^  mutable int _cached_size_;$/;"	m	class:store::ProductQuery
+_cached_size_	src/store.pb.h	/^  mutable int _cached_size_;$/;"	m	class:store::ProductReply
+_cached_size_	src/vendor.pb.h	/^  mutable int _cached_size_;$/;"	m	class:vendor::BidQuery
+_cached_size_	src/vendor.pb.h	/^  mutable int _cached_size_;$/;"	m	class:vendor::BidReply
+_cached_size_	test/store.pb.h	/^  mutable int _cached_size_;$/;"	m	class:store::ProductInfo
+_cached_size_	test/store.pb.h	/^  mutable int _cached_size_;$/;"	m	class:store::ProductQuery
+_cached_size_	test/store.pb.h	/^  mutable int _cached_size_;$/;"	m	class:store::ProductReply
+_cached_size_	test/vendor.pb.h	/^  mutable int _cached_size_;$/;"	m	class:vendor::BidQuery
+_cached_size_	test/vendor.pb.h	/^  mutable int _cached_size_;$/;"	m	class:vendor::BidReply
+_internal_metadata_	src/store.pb.h	/^  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;$/;"	m	class:store::ProductInfo
+_internal_metadata_	src/store.pb.h	/^  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;$/;"	m	class:store::ProductQuery
+_internal_metadata_	src/store.pb.h	/^  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;$/;"	m	class:store::ProductReply
+_internal_metadata_	src/vendor.pb.h	/^  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;$/;"	m	class:vendor::BidQuery
+_internal_metadata_	src/vendor.pb.h	/^  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;$/;"	m	class:vendor::BidReply
+_internal_metadata_	test/store.pb.h	/^  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;$/;"	m	class:store::ProductInfo
+_internal_metadata_	test/store.pb.h	/^  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;$/;"	m	class:store::ProductQuery
+_internal_metadata_	test/store.pb.h	/^  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;$/;"	m	class:store::ProductReply
+_internal_metadata_	test/vendor.pb.h	/^  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;$/;"	m	class:vendor::BidQuery
+_internal_metadata_	test/vendor.pb.h	/^  ::google::protobuf::internal::InternalMetadataWithArena _internal_metadata_;$/;"	m	class:vendor::BidReply
+_is_default_instance_	src/store.pb.h	/^  bool _is_default_instance_;$/;"	m	class:store::ProductInfo
+_is_default_instance_	src/store.pb.h	/^  bool _is_default_instance_;$/;"	m	class:store::ProductQuery
+_is_default_instance_	src/store.pb.h	/^  bool _is_default_instance_;$/;"	m	class:store::ProductReply
+_is_default_instance_	src/vendor.pb.h	/^  bool _is_default_instance_;$/;"	m	class:vendor::BidQuery
+_is_default_instance_	src/vendor.pb.h	/^  bool _is_default_instance_;$/;"	m	class:vendor::BidReply
+_is_default_instance_	test/store.pb.h	/^  bool _is_default_instance_;$/;"	m	class:store::ProductInfo
+_is_default_instance_	test/store.pb.h	/^  bool _is_default_instance_;$/;"	m	class:store::ProductQuery
+_is_default_instance_	test/store.pb.h	/^  bool _is_default_instance_;$/;"	m	class:store::ProductReply
+_is_default_instance_	test/vendor.pb.h	/^  bool _is_default_instance_;$/;"	m	class:vendor::BidQuery
+_is_default_instance_	test/vendor.pb.h	/^  bool _is_default_instance_;$/;"	m	class:vendor::BidReply
+add_products	src/store.pb.cc	/^::store::ProductInfo* ProductReply::add_products() {$/;"	f	class:store::ProductReply
+add_products	src/store.pb.h	/^inline ::store::ProductInfo* ProductReply::add_products() {$/;"	f	class:store::ProductReply
+add_products	test/store.pb.cc	/^::store::ProductInfo* ProductReply::add_products() {$/;"	f	class:store::ProductReply
+add_products	test/store.pb.h	/^inline ::store::ProductInfo* ProductReply::add_products() {$/;"	f	class:store::ProductReply
+bids_	test/product_queries_util.h	/^	std::vector<Bid> bids_;$/;"	m	struct:ProductQueryResult
+channel_	src/store.grpc.pb.h	/^    std::shared_ptr< ::grpc::ChannelInterface> channel_;$/;"	m	class:store::GRPC_FINAL::GRPC_FINAL
+channel_	src/vendor.grpc.pb.h	/^    std::shared_ptr< ::grpc::ChannelInterface> channel_;$/;"	m	class:vendor::GRPC_FINAL::GRPC_FINAL
+channel_	test/store.grpc.pb.h	/^    std::shared_ptr< ::grpc::ChannelInterface> channel_;$/;"	m	class:store::GRPC_FINAL::GRPC_FINAL
+channel_	test/vendor.grpc.pb.h	/^    std::shared_ptr< ::grpc::ChannelInterface> channel_;$/;"	m	class:vendor::GRPC_FINAL::GRPC_FINAL
+clear_price	src/store.pb.cc	/^void ProductInfo::clear_price() {$/;"	f	class:store::ProductInfo
+clear_price	src/store.pb.h	/^inline void ProductInfo::clear_price() {$/;"	f	class:store::ProductInfo
+clear_price	src/vendor.pb.cc	/^void BidReply::clear_price() {$/;"	f	class:vendor::BidReply
+clear_price	src/vendor.pb.h	/^inline void BidReply::clear_price() {$/;"	f	class:vendor::BidReply
+clear_price	test/store.pb.cc	/^void ProductInfo::clear_price() {$/;"	f	class:store::ProductInfo
+clear_price	test/store.pb.h	/^inline void ProductInfo::clear_price() {$/;"	f	class:store::ProductInfo
+clear_price	test/vendor.pb.cc	/^void BidReply::clear_price() {$/;"	f	class:vendor::BidReply
+clear_price	test/vendor.pb.h	/^inline void BidReply::clear_price() {$/;"	f	class:vendor::BidReply
+clear_product_name	src/store.pb.cc	/^void ProductQuery::clear_product_name() {$/;"	f	class:store::ProductQuery
+clear_product_name	src/store.pb.h	/^inline void ProductQuery::clear_product_name() {$/;"	f	class:store::ProductQuery
+clear_product_name	src/vendor.pb.cc	/^void BidQuery::clear_product_name() {$/;"	f	class:vendor::BidQuery
+clear_product_name	src/vendor.pb.h	/^inline void BidQuery::clear_product_name() {$/;"	f	class:vendor::BidQuery
+clear_product_name	test/store.pb.cc	/^void ProductQuery::clear_product_name() {$/;"	f	class:store::ProductQuery
+clear_product_name	test/store.pb.h	/^inline void ProductQuery::clear_product_name() {$/;"	f	class:store::ProductQuery
+clear_product_name	test/vendor.pb.cc	/^void BidQuery::clear_product_name() {$/;"	f	class:vendor::BidQuery
+clear_product_name	test/vendor.pb.h	/^inline void BidQuery::clear_product_name() {$/;"	f	class:vendor::BidQuery
+clear_products	src/store.pb.cc	/^void ProductReply::clear_products() {$/;"	f	class:store::ProductReply
+clear_products	src/store.pb.h	/^inline void ProductReply::clear_products() {$/;"	f	class:store::ProductReply
+clear_products	test/store.pb.cc	/^void ProductReply::clear_products() {$/;"	f	class:store::ProductReply
+clear_products	test/store.pb.h	/^inline void ProductReply::clear_products() {$/;"	f	class:store::ProductReply
+clear_vendor_id	src/store.pb.cc	/^void ProductInfo::clear_vendor_id() {$/;"	f	class:store::ProductInfo
+clear_vendor_id	src/store.pb.h	/^inline void ProductInfo::clear_vendor_id() {$/;"	f	class:store::ProductInfo
+clear_vendor_id	src/vendor.pb.cc	/^void BidReply::clear_vendor_id() {$/;"	f	class:vendor::BidReply
+clear_vendor_id	src/vendor.pb.h	/^inline void BidReply::clear_vendor_id() {$/;"	f	class:vendor::BidReply
+clear_vendor_id	test/store.pb.cc	/^void ProductInfo::clear_vendor_id() {$/;"	f	class:store::ProductInfo
+clear_vendor_id	test/store.pb.h	/^inline void ProductInfo::clear_vendor_id() {$/;"	f	class:store::ProductInfo
+clear_vendor_id	test/vendor.pb.cc	/^void BidReply::clear_vendor_id() {$/;"	f	class:vendor::BidReply
+clear_vendor_id	test/vendor.pb.h	/^inline void BidReply::clear_vendor_id() {$/;"	f	class:vendor::BidReply
+default_instance	src/store.pb.cc	/^const ProductInfo& ProductInfo::default_instance() {$/;"	f	class:store::ProductInfo
+default_instance	src/store.pb.cc	/^const ProductQuery& ProductQuery::default_instance() {$/;"	f	class:store::ProductQuery
+default_instance	src/store.pb.cc	/^const ProductReply& ProductReply::default_instance() {$/;"	f	class:store::ProductReply
+default_instance	src/vendor.pb.cc	/^const BidQuery& BidQuery::default_instance() {$/;"	f	class:vendor::BidQuery
+default_instance	src/vendor.pb.cc	/^const BidReply& BidReply::default_instance() {$/;"	f	class:vendor::BidReply
+default_instance	test/store.pb.cc	/^const ProductInfo& ProductInfo::default_instance() {$/;"	f	class:store::ProductInfo
+default_instance	test/store.pb.cc	/^const ProductQuery& ProductQuery::default_instance() {$/;"	f	class:store::ProductQuery
+default_instance	test/store.pb.cc	/^const ProductReply& ProductReply::default_instance() {$/;"	f	class:store::ProductReply
+default_instance	test/vendor.pb.cc	/^const BidQuery& BidQuery::default_instance() {$/;"	f	class:vendor::BidQuery
+default_instance	test/vendor.pb.cc	/^const BidReply& BidReply::default_instance() {$/;"	f	class:vendor::BidReply
+default_instance_	src/store.pb.cc	/^ProductInfo* ProductInfo::default_instance_ = NULL;$/;"	m	class:store::ProductInfo	file:
+default_instance_	src/store.pb.cc	/^ProductQuery* ProductQuery::default_instance_ = NULL;$/;"	m	class:store::ProductQuery	file:
+default_instance_	src/store.pb.cc	/^ProductReply* ProductReply::default_instance_ = NULL;$/;"	m	class:store::ProductReply	file:
+default_instance_	src/store.pb.h	/^  static ProductInfo* default_instance_;$/;"	m	class:store::ProductInfo
+default_instance_	src/store.pb.h	/^  static ProductQuery* default_instance_;$/;"	m	class:store::ProductQuery
+default_instance_	src/store.pb.h	/^  static ProductReply* default_instance_;$/;"	m	class:store::ProductReply
+default_instance_	src/vendor.pb.cc	/^BidQuery* BidQuery::default_instance_ = NULL;$/;"	m	class:vendor::BidQuery	file:
+default_instance_	src/vendor.pb.cc	/^BidReply* BidReply::default_instance_ = NULL;$/;"	m	class:vendor::BidReply	file:
+default_instance_	src/vendor.pb.h	/^  static BidQuery* default_instance_;$/;"	m	class:vendor::BidQuery
+default_instance_	src/vendor.pb.h	/^  static BidReply* default_instance_;$/;"	m	class:vendor::BidReply
+default_instance_	test/store.pb.cc	/^ProductInfo* ProductInfo::default_instance_ = NULL;$/;"	m	class:store::ProductInfo	file:
+default_instance_	test/store.pb.cc	/^ProductQuery* ProductQuery::default_instance_ = NULL;$/;"	m	class:store::ProductQuery	file:
+default_instance_	test/store.pb.cc	/^ProductReply* ProductReply::default_instance_ = NULL;$/;"	m	class:store::ProductReply	file:
+default_instance_	test/store.pb.h	/^  static ProductInfo* default_instance_;$/;"	m	class:store::ProductInfo
+default_instance_	test/store.pb.h	/^  static ProductQuery* default_instance_;$/;"	m	class:store::ProductQuery
+default_instance_	test/store.pb.h	/^  static ProductReply* default_instance_;$/;"	m	class:store::ProductReply
+default_instance_	test/vendor.pb.cc	/^BidQuery* BidQuery::default_instance_ = NULL;$/;"	m	class:vendor::BidQuery	file:
+default_instance_	test/vendor.pb.cc	/^BidReply* BidReply::default_instance_ = NULL;$/;"	m	class:vendor::BidReply	file:
+default_instance_	test/vendor.pb.h	/^  static BidQuery* default_instance_;$/;"	m	class:vendor::BidQuery
+default_instance_	test/vendor.pb.h	/^  static BidReply* default_instance_;$/;"	m	class:vendor::BidReply
+descriptor	src/store.pb.cc	/^const ::google::protobuf::Descriptor* ProductInfo::descriptor() {$/;"	f	class:store::ProductInfo
+descriptor	src/store.pb.cc	/^const ::google::protobuf::Descriptor* ProductQuery::descriptor() {$/;"	f	class:store::ProductQuery
+descriptor	src/store.pb.cc	/^const ::google::protobuf::Descriptor* ProductReply::descriptor() {$/;"	f	class:store::ProductReply
+descriptor	src/vendor.pb.cc	/^const ::google::protobuf::Descriptor* BidQuery::descriptor() {$/;"	f	class:vendor::BidQuery
+descriptor	src/vendor.pb.cc	/^const ::google::protobuf::Descriptor* BidReply::descriptor() {$/;"	f	class:vendor::BidReply
+descriptor	test/store.pb.cc	/^const ::google::protobuf::Descriptor* ProductInfo::descriptor() {$/;"	f	class:store::ProductInfo
+descriptor	test/store.pb.cc	/^const ::google::protobuf::Descriptor* ProductQuery::descriptor() {$/;"	f	class:store::ProductQuery
+descriptor	test/store.pb.cc	/^const ::google::protobuf::Descriptor* ProductReply::descriptor() {$/;"	f	class:store::ProductReply
+descriptor	test/vendor.pb.cc	/^const ::google::protobuf::Descriptor* BidQuery::descriptor() {$/;"	f	class:vendor::BidQuery
+descriptor	test/vendor.pb.cc	/^const ::google::protobuf::Descriptor* BidReply::descriptor() {$/;"	f	class:vendor::BidReply
+final	test/vendor.cc	/^class VendorService final : public Vendor::Service {$/;"	c	file:
+getProductBid	src/vendor.grpc.pb.cc	/^::grpc::Status Vendor::Service::getProductBid(::grpc::ServerContext* context, const ::vendor::BidQuery* request, ::vendor::BidReply* response) {$/;"	f	class:vendor::Vendor::Service
+getProductBid	src/vendor.grpc.pb.cc	/^::grpc::Status Vendor::Stub::getProductBid(::grpc::ClientContext* context, const ::vendor::BidQuery& request, ::vendor::BidReply* response) {$/;"	f	class:vendor::Vendor::Stub
+getProductBid	test/vendor.grpc.pb.cc	/^::grpc::Status Vendor::Service::getProductBid(::grpc::ServerContext* context, const ::vendor::BidQuery* request, ::vendor::BidReply* response) {$/;"	f	class:vendor::Vendor::Service
+getProductBid	test/vendor.grpc.pb.cc	/^::grpc::Status Vendor::Stub::getProductBid(::grpc::ClientContext* context, const ::vendor::BidQuery& request, ::vendor::BidReply* response) {$/;"	f	class:vendor::Vendor::Stub
+getProducts	src/store.grpc.pb.cc	/^::grpc::Status Store::Service::getProducts(::grpc::ServerContext* context, const ::store::ProductQuery* request, ::store::ProductReply* response) {$/;"	f	class:store::Store::Service
+getProducts	src/store.grpc.pb.cc	/^::grpc::Status Store::Stub::getProducts(::grpc::ClientContext* context, const ::store::ProductQuery& request, ::store::ProductReply* response) {$/;"	f	class:store::Store::Stub
+getProducts	test/client.cc	/^bool StoreClient::getProducts(const ProductSpec& product_spec, ProductQueryResult& query_result) {$/;"	f	class:StoreClient
+getProducts	test/store.grpc.pb.cc	/^::grpc::Status Store::Service::getProducts(::grpc::ServerContext* context, const ::store::ProductQuery* request, ::store::ProductReply* response) {$/;"	f	class:store::Store::Service
+getProducts	test/store.grpc.pb.cc	/^::grpc::Status Store::Stub::getProducts(::grpc::ClientContext* context, const ::store::ProductQuery& request, ::store::ProductReply* response) {$/;"	f	class:store::Store::Stub
+grpc	src/store.grpc.pb.h	/^namespace grpc {$/;"	n
+grpc	src/vendor.grpc.pb.h	/^namespace grpc {$/;"	n
+grpc	test/store.grpc.pb.h	/^namespace grpc {$/;"	n
+grpc	test/vendor.grpc.pb.h	/^namespace grpc {$/;"	n
+hasher_	test/vendor.cc	/^    std::hash<std::string> hasher_;$/;"	m	class:final	file:
+id_	test/vendor.cc	/^    const std::string id_;$/;"	m	class:final	file:
+kPriceFieldNumber	src/store.pb.cc	/^const int ProductInfo::kPriceFieldNumber;$/;"	m	class:store::ProductInfo	file:
+kPriceFieldNumber	src/store.pb.h	/^  static const int kPriceFieldNumber = 1;$/;"	m	class:store::ProductInfo
+kPriceFieldNumber	src/vendor.pb.cc	/^const int BidReply::kPriceFieldNumber;$/;"	m	class:vendor::BidReply	file:
+kPriceFieldNumber	src/vendor.pb.h	/^  static const int kPriceFieldNumber = 1;$/;"	m	class:vendor::BidReply
+kPriceFieldNumber	test/store.pb.cc	/^const int ProductInfo::kPriceFieldNumber;$/;"	m	class:store::ProductInfo	file:
+kPriceFieldNumber	test/store.pb.h	/^  static const int kPriceFieldNumber = 1;$/;"	m	class:store::ProductInfo
+kPriceFieldNumber	test/vendor.pb.cc	/^const int BidReply::kPriceFieldNumber;$/;"	m	class:vendor::BidReply	file:
+kPriceFieldNumber	test/vendor.pb.h	/^  static const int kPriceFieldNumber = 1;$/;"	m	class:vendor::BidReply
+kProductNameFieldNumber	src/store.pb.cc	/^const int ProductQuery::kProductNameFieldNumber;$/;"	m	class:store::ProductQuery	file:
+kProductNameFieldNumber	src/store.pb.h	/^  static const int kProductNameFieldNumber = 1;$/;"	m	class:store::ProductQuery
+kProductNameFieldNumber	src/vendor.pb.cc	/^const int BidQuery::kProductNameFieldNumber;$/;"	m	class:vendor::BidQuery	file:
+kProductNameFieldNumber	src/vendor.pb.h	/^  static const int kProductNameFieldNumber = 1;$/;"	m	class:vendor::BidQuery
+kProductNameFieldNumber	test/store.pb.cc	/^const int ProductQuery::kProductNameFieldNumber;$/;"	m	class:store::ProductQuery	file:
+kProductNameFieldNumber	test/store.pb.h	/^  static const int kProductNameFieldNumber = 1;$/;"	m	class:store::ProductQuery
+kProductNameFieldNumber	test/vendor.pb.cc	/^const int BidQuery::kProductNameFieldNumber;$/;"	m	class:vendor::BidQuery	file:
+kProductNameFieldNumber	test/vendor.pb.h	/^  static const int kProductNameFieldNumber = 1;$/;"	m	class:vendor::BidQuery
+kProductsFieldNumber	src/store.pb.cc	/^const int ProductReply::kProductsFieldNumber;$/;"	m	class:store::ProductReply	file:
+kProductsFieldNumber	src/store.pb.h	/^  static const int kProductsFieldNumber = 1;$/;"	m	class:store::ProductReply
+kProductsFieldNumber	test/store.pb.cc	/^const int ProductReply::kProductsFieldNumber;$/;"	m	class:store::ProductReply	file:
+kProductsFieldNumber	test/store.pb.h	/^  static const int kProductsFieldNumber = 1;$/;"	m	class:store::ProductReply
+kVendorIdFieldNumber	src/store.pb.cc	/^const int ProductInfo::kVendorIdFieldNumber;$/;"	m	class:store::ProductInfo	file:
+kVendorIdFieldNumber	src/store.pb.h	/^  static const int kVendorIdFieldNumber = 2;$/;"	m	class:store::ProductInfo
+kVendorIdFieldNumber	src/vendor.pb.cc	/^const int BidReply::kVendorIdFieldNumber;$/;"	m	class:vendor::BidReply	file:
+kVendorIdFieldNumber	src/vendor.pb.h	/^  static const int kVendorIdFieldNumber = 2;$/;"	m	class:vendor::BidReply
+kVendorIdFieldNumber	test/store.pb.cc	/^const int ProductInfo::kVendorIdFieldNumber;$/;"	m	class:store::ProductInfo	file:
+kVendorIdFieldNumber	test/store.pb.h	/^  static const int kVendorIdFieldNumber = 2;$/;"	m	class:store::ProductInfo
+kVendorIdFieldNumber	test/vendor.pb.cc	/^const int BidReply::kVendorIdFieldNumber;$/;"	m	class:vendor::BidReply	file:
+kVendorIdFieldNumber	test/vendor.pb.h	/^  static const int kVendorIdFieldNumber = 2;$/;"	m	class:vendor::BidReply
+main	src/store.cc	/^int main(int argc, char** argv) {$/;"	f
+main	test/run_tests.cc	/^int main(int argc, char** argv) {$/;"	f
+main	test/run_vendors.cc	/^int main(int argc, char** argv) {$/;"	f
+mutable_product_name	src/store.pb.cc	/^ ::std::string* ProductQuery::mutable_product_name() {$/;"	f	class:store::ProductQuery
+mutable_product_name	src/store.pb.h	/^inline ::std::string* ProductQuery::mutable_product_name() {$/;"	f	class:store::ProductQuery
+mutable_product_name	src/vendor.pb.cc	/^ ::std::string* BidQuery::mutable_product_name() {$/;"	f	class:vendor::BidQuery
+mutable_product_name	src/vendor.pb.h	/^inline ::std::string* BidQuery::mutable_product_name() {$/;"	f	class:vendor::BidQuery
+mutable_product_name	test/store.pb.cc	/^ ::std::string* ProductQuery::mutable_product_name() {$/;"	f	class:store::ProductQuery
+mutable_product_name	test/store.pb.h	/^inline ::std::string* ProductQuery::mutable_product_name() {$/;"	f	class:store::ProductQuery
+mutable_product_name	test/vendor.pb.cc	/^ ::std::string* BidQuery::mutable_product_name() {$/;"	f	class:vendor::BidQuery
+mutable_product_name	test/vendor.pb.h	/^inline ::std::string* BidQuery::mutable_product_name() {$/;"	f	class:vendor::BidQuery
+mutable_products	src/store.pb.cc	/^::store::ProductInfo* ProductReply::mutable_products(int index) {$/;"	f	class:store::ProductReply
+mutable_products	src/store.pb.cc	/^ProductReply::mutable_products() {$/;"	f	class:store::ProductReply
+mutable_products	src/store.pb.h	/^ProductReply::mutable_products() {$/;"	f	class:store::ProductReply
+mutable_products	src/store.pb.h	/^inline ::store::ProductInfo* ProductReply::mutable_products(int index) {$/;"	f	class:store::ProductReply
+mutable_products	test/store.pb.cc	/^::store::ProductInfo* ProductReply::mutable_products(int index) {$/;"	f	class:store::ProductReply
+mutable_products	test/store.pb.cc	/^ProductReply::mutable_products() {$/;"	f	class:store::ProductReply
+mutable_products	test/store.pb.h	/^ProductReply::mutable_products() {$/;"	f	class:store::ProductReply
+mutable_products	test/store.pb.h	/^inline ::store::ProductInfo* ProductReply::mutable_products(int index) {$/;"	f	class:store::ProductReply
+mutable_vendor_id	src/store.pb.cc	/^ ::std::string* ProductInfo::mutable_vendor_id() {$/;"	f	class:store::ProductInfo
+mutable_vendor_id	src/store.pb.h	/^inline ::std::string* ProductInfo::mutable_vendor_id() {$/;"	f	class:store::ProductInfo
+mutable_vendor_id	src/vendor.pb.cc	/^ ::std::string* BidReply::mutable_vendor_id() {$/;"	f	class:vendor::BidReply
+mutable_vendor_id	src/vendor.pb.h	/^inline ::std::string* BidReply::mutable_vendor_id() {$/;"	f	class:vendor::BidReply
+mutable_vendor_id	test/store.pb.cc	/^ ::std::string* ProductInfo::mutable_vendor_id() {$/;"	f	class:store::ProductInfo
+mutable_vendor_id	test/store.pb.h	/^inline ::std::string* ProductInfo::mutable_vendor_id() {$/;"	f	class:store::ProductInfo
+mutable_vendor_id	test/vendor.pb.cc	/^ ::std::string* BidReply::mutable_vendor_id() {$/;"	f	class:vendor::BidReply
+mutable_vendor_id	test/vendor.pb.h	/^inline ::std::string* BidReply::mutable_vendor_id() {$/;"	f	class:vendor::BidReply
+name_	test/product_queries_util.h	/^	const std::string name_;$/;"	m	struct:ProductSpec
+operator =	src/store.pb.h	/^  inline ProductInfo& operator=(const ProductInfo& from) {$/;"	f	class:store::ProductInfo
+operator =	src/store.pb.h	/^  inline ProductQuery& operator=(const ProductQuery& from) {$/;"	f	class:store::ProductQuery
+operator =	src/store.pb.h	/^  inline ProductReply& operator=(const ProductReply& from) {$/;"	f	class:store::ProductReply
+operator =	src/vendor.pb.h	/^  inline BidQuery& operator=(const BidQuery& from) {$/;"	f	class:vendor::BidQuery
+operator =	src/vendor.pb.h	/^  inline BidReply& operator=(const BidReply& from) {$/;"	f	class:vendor::BidReply
+operator =	test/store.pb.h	/^  inline ProductInfo& operator=(const ProductInfo& from) {$/;"	f	class:store::ProductInfo
+operator =	test/store.pb.h	/^  inline ProductQuery& operator=(const ProductQuery& from) {$/;"	f	class:store::ProductQuery
+operator =	test/store.pb.h	/^  inline ProductReply& operator=(const ProductReply& from) {$/;"	f	class:store::ProductReply
+operator =	test/vendor.pb.h	/^  inline BidQuery& operator=(const BidQuery& from) {$/;"	f	class:vendor::BidQuery
+operator =	test/vendor.pb.h	/^  inline BidReply& operator=(const BidReply& from) {$/;"	f	class:vendor::BidReply
+price	src/store.pb.cc	/^ double ProductInfo::price() const {$/;"	f	class:store::ProductInfo
+price	src/store.pb.h	/^inline double ProductInfo::price() const {$/;"	f	class:store::ProductInfo
+price	src/vendor.pb.cc	/^ double BidReply::price() const {$/;"	f	class:vendor::BidReply
+price	src/vendor.pb.h	/^inline double BidReply::price() const {$/;"	f	class:vendor::BidReply
+price	test/store.pb.cc	/^ double ProductInfo::price() const {$/;"	f	class:store::ProductInfo
+price	test/store.pb.h	/^inline double ProductInfo::price() const {$/;"	f	class:store::ProductInfo
+price	test/vendor.pb.cc	/^ double BidReply::price() const {$/;"	f	class:vendor::BidReply
+price	test/vendor.pb.h	/^inline double BidReply::price() const {$/;"	f	class:vendor::BidReply
+price_	src/store.pb.h	/^  double price_;$/;"	m	class:store::ProductInfo
+price_	src/vendor.pb.h	/^  double price_;$/;"	m	class:vendor::BidReply
+price_	test/product_queries_util.h	/^		double price_;$/;"	m	struct:ProductQueryResult::Bid
+price_	test/store.pb.h	/^  double price_;$/;"	m	class:store::ProductInfo
+price_	test/vendor.pb.h	/^  double price_;$/;"	m	class:vendor::BidReply
+product_name	src/store.pb.cc	/^ const ::std::string& ProductQuery::product_name() const {$/;"	f	class:store::ProductQuery
+product_name	src/store.pb.h	/^inline const ::std::string& ProductQuery::product_name() const {$/;"	f	class:store::ProductQuery
+product_name	src/vendor.pb.cc	/^ const ::std::string& BidQuery::product_name() const {$/;"	f	class:vendor::BidQuery
+product_name	src/vendor.pb.h	/^inline const ::std::string& BidQuery::product_name() const {$/;"	f	class:vendor::BidQuery
+product_name	test/store.pb.cc	/^ const ::std::string& ProductQuery::product_name() const {$/;"	f	class:store::ProductQuery
+product_name	test/store.pb.h	/^inline const ::std::string& ProductQuery::product_name() const {$/;"	f	class:store::ProductQuery
+product_name	test/vendor.pb.cc	/^ const ::std::string& BidQuery::product_name() const {$/;"	f	class:vendor::BidQuery
+product_name	test/vendor.pb.h	/^inline const ::std::string& BidQuery::product_name() const {$/;"	f	class:vendor::BidQuery
+product_name_	src/store.pb.h	/^  ::google::protobuf::internal::ArenaStringPtr product_name_;$/;"	m	class:store::ProductQuery
+product_name_	src/vendor.pb.h	/^  ::google::protobuf::internal::ArenaStringPtr product_name_;$/;"	m	class:vendor::BidQuery
+product_name_	test/store.pb.h	/^  ::google::protobuf::internal::ArenaStringPtr product_name_;$/;"	m	class:store::ProductQuery
+product_name_	test/vendor.pb.h	/^  ::google::protobuf::internal::ArenaStringPtr product_name_;$/;"	m	class:vendor::BidQuery
+products	src/store.pb.cc	/^ProductReply::products() const {$/;"	f	class:store::ProductReply
+products	src/store.pb.cc	/^const ::store::ProductInfo& ProductReply::products(int index) const {$/;"	f	class:store::ProductReply
+products	src/store.pb.h	/^ProductReply::products() const {$/;"	f	class:store::ProductReply
+products	src/store.pb.h	/^inline const ::store::ProductInfo& ProductReply::products(int index) const {$/;"	f	class:store::ProductReply
+products	test/store.pb.cc	/^ProductReply::products() const {$/;"	f	class:store::ProductReply
+products	test/store.pb.cc	/^const ::store::ProductInfo& ProductReply::products(int index) const {$/;"	f	class:store::ProductReply
+products	test/store.pb.h	/^ProductReply::products() const {$/;"	f	class:store::ProductReply
+products	test/store.pb.h	/^inline const ::store::ProductInfo& ProductReply::products(int index) const {$/;"	f	class:store::ProductReply
+products_	src/store.pb.h	/^  ::google::protobuf::RepeatedPtrField< ::store::ProductInfo > products_;$/;"	m	class:store::ProductReply
+products_	test/store.pb.h	/^  ::google::protobuf::RepeatedPtrField< ::store::ProductInfo > products_;$/;"	m	class:store::ProductReply
+products_size	src/store.pb.cc	/^int ProductReply::products_size() const {$/;"	f	class:store::ProductReply
+products_size	src/store.pb.h	/^inline int ProductReply::products_size() const {$/;"	f	class:store::ProductReply
+products_size	test/store.pb.cc	/^int ProductReply::products_size() const {$/;"	f	class:store::ProductReply
+products_size	test/store.pb.h	/^inline int ProductReply::products_size() const {$/;"	f	class:store::ProductReply
+protobuf_AddDesc_store_2eproto	src/store.pb.cc	/^void protobuf_AddDesc_store_2eproto() {$/;"	f	namespace:store
+protobuf_AddDesc_store_2eproto	test/store.pb.cc	/^void protobuf_AddDesc_store_2eproto() {$/;"	f	namespace:store
+protobuf_AddDesc_vendor_2eproto	src/vendor.pb.cc	/^void protobuf_AddDesc_vendor_2eproto() {$/;"	f	namespace:vendor
+protobuf_AddDesc_vendor_2eproto	test/vendor.pb.cc	/^void protobuf_AddDesc_vendor_2eproto() {$/;"	f	namespace:vendor
+protobuf_AssignDesc_store_2eproto	src/store.pb.cc	/^void protobuf_AssignDesc_store_2eproto() {$/;"	f	namespace:store
+protobuf_AssignDesc_store_2eproto	test/store.pb.cc	/^void protobuf_AssignDesc_store_2eproto() {$/;"	f	namespace:store
+protobuf_AssignDesc_vendor_2eproto	src/vendor.pb.cc	/^void protobuf_AssignDesc_vendor_2eproto() {$/;"	f	namespace:vendor
+protobuf_AssignDesc_vendor_2eproto	test/vendor.pb.cc	/^void protobuf_AssignDesc_vendor_2eproto() {$/;"	f	namespace:vendor
+protobuf_AssignDescriptorsOnce	src/store.pb.cc	/^inline void protobuf_AssignDescriptorsOnce() {$/;"	f	namespace:store::__anon4
+protobuf_AssignDescriptorsOnce	src/vendor.pb.cc	/^inline void protobuf_AssignDescriptorsOnce() {$/;"	f	namespace:vendor::__anon2
+protobuf_AssignDescriptorsOnce	test/store.pb.cc	/^inline void protobuf_AssignDescriptorsOnce() {$/;"	f	namespace:store::__anon8
+protobuf_AssignDescriptorsOnce	test/vendor.pb.cc	/^inline void protobuf_AssignDescriptorsOnce() {$/;"	f	namespace:vendor::__anon6
+protobuf_RegisterTypes	src/store.pb.cc	/^void protobuf_RegisterTypes(const ::std::string&) {$/;"	f	namespace:store::__anon4
+protobuf_RegisterTypes	src/vendor.pb.cc	/^void protobuf_RegisterTypes(const ::std::string&) {$/;"	f	namespace:vendor::__anon2
+protobuf_RegisterTypes	test/store.pb.cc	/^void protobuf_RegisterTypes(const ::std::string&) {$/;"	f	namespace:store::__anon8
+protobuf_RegisterTypes	test/vendor.pb.cc	/^void protobuf_RegisterTypes(const ::std::string&) {$/;"	f	namespace:vendor::__anon6
+protobuf_ShutdownFile_store_2eproto	src/store.pb.cc	/^void protobuf_ShutdownFile_store_2eproto() {$/;"	f	namespace:store
+protobuf_ShutdownFile_store_2eproto	test/store.pb.cc	/^void protobuf_ShutdownFile_store_2eproto() {$/;"	f	namespace:store
+protobuf_ShutdownFile_vendor_2eproto	src/vendor.pb.cc	/^void protobuf_ShutdownFile_vendor_2eproto() {$/;"	f	namespace:vendor
+protobuf_ShutdownFile_vendor_2eproto	test/vendor.pb.cc	/^void protobuf_ShutdownFile_vendor_2eproto() {$/;"	f	namespace:vendor
+read_product_queries	test/product_queries_util.h	/^inline bool read_product_queries(std::vector<ProductSpec>& queries, const std::string& filename) {$/;"	f
+release_product_name	src/store.pb.cc	/^ ::std::string* ProductQuery::release_product_name() {$/;"	f	class:store::ProductQuery
+release_product_name	src/store.pb.h	/^inline ::std::string* ProductQuery::release_product_name() {$/;"	f	class:store::ProductQuery
+release_product_name	src/vendor.pb.cc	/^ ::std::string* BidQuery::release_product_name() {$/;"	f	class:vendor::BidQuery
+release_product_name	src/vendor.pb.h	/^inline ::std::string* BidQuery::release_product_name() {$/;"	f	class:vendor::BidQuery
+release_product_name	test/store.pb.cc	/^ ::std::string* ProductQuery::release_product_name() {$/;"	f	class:store::ProductQuery
+release_product_name	test/store.pb.h	/^inline ::std::string* ProductQuery::release_product_name() {$/;"	f	class:store::ProductQuery
+release_product_name	test/vendor.pb.cc	/^ ::std::string* BidQuery::release_product_name() {$/;"	f	class:vendor::BidQuery
+release_product_name	test/vendor.pb.h	/^inline ::std::string* BidQuery::release_product_name() {$/;"	f	class:vendor::BidQuery
+release_vendor_id	src/store.pb.cc	/^ ::std::string* ProductInfo::release_vendor_id() {$/;"	f	class:store::ProductInfo
+release_vendor_id	src/store.pb.h	/^inline ::std::string* ProductInfo::release_vendor_id() {$/;"	f	class:store::ProductInfo
+release_vendor_id	src/vendor.pb.cc	/^ ::std::string* BidReply::release_vendor_id() {$/;"	f	class:vendor::BidReply
+release_vendor_id	src/vendor.pb.h	/^inline ::std::string* BidReply::release_vendor_id() {$/;"	f	class:vendor::BidReply
+release_vendor_id	test/store.pb.cc	/^ ::std::string* ProductInfo::release_vendor_id() {$/;"	f	class:store::ProductInfo
+release_vendor_id	test/store.pb.h	/^inline ::std::string* ProductInfo::release_vendor_id() {$/;"	f	class:store::ProductInfo
+release_vendor_id	test/vendor.pb.cc	/^ ::std::string* BidReply::release_vendor_id() {$/;"	f	class:vendor::BidReply
+release_vendor_id	test/vendor.pb.h	/^inline ::std::string* BidReply::release_vendor_id() {$/;"	f	class:vendor::BidReply
+rpcmethod_getProductBid_	src/vendor.grpc.pb.h	/^    const ::grpc::RpcMethod rpcmethod_getProductBid_;$/;"	m	class:vendor::GRPC_FINAL::GRPC_FINAL
+rpcmethod_getProductBid_	test/vendor.grpc.pb.h	/^    const ::grpc::RpcMethod rpcmethod_getProductBid_;$/;"	m	class:vendor::GRPC_FINAL::GRPC_FINAL
+rpcmethod_getProducts_	src/store.grpc.pb.h	/^    const ::grpc::RpcMethod rpcmethod_getProducts_;$/;"	m	class:store::GRPC_FINAL::GRPC_FINAL
+rpcmethod_getProducts_	test/store.grpc.pb.h	/^    const ::grpc::RpcMethod rpcmethod_getProducts_;$/;"	m	class:store::GRPC_FINAL::GRPC_FINAL
+run_client	test/client.cc	/^bool run_client(const std::string& server_addr, const std::string& product_name, ProductQueryResult& pq_result) {$/;"	f
+run_server	test/vendor.cc	/^void run_server(const std::string server_address)   {$/;"	f
+run_test	test/run_tests.cc	/^bool run_test(std::vector<ProductSpec>& product_specs, const int num_max_threads, const std::string& server_addr) {$/;"	f
+run_vendors	test/run_vendors.cc	/^void run_vendors(const std::vector<std::string>& ip_addrresses) {$/;"	f
+set_allocated_product_name	src/store.pb.cc	/^ void ProductQuery::set_allocated_product_name(::std::string* product_name) {$/;"	f	class:store::ProductQuery
+set_allocated_product_name	src/store.pb.h	/^inline void ProductQuery::set_allocated_product_name(::std::string* product_name) {$/;"	f	class:store::ProductQuery
+set_allocated_product_name	src/vendor.pb.cc	/^ void BidQuery::set_allocated_product_name(::std::string* product_name) {$/;"	f	class:vendor::BidQuery
+set_allocated_product_name	src/vendor.pb.h	/^inline void BidQuery::set_allocated_product_name(::std::string* product_name) {$/;"	f	class:vendor::BidQuery
+set_allocated_product_name	test/store.pb.cc	/^ void ProductQuery::set_allocated_product_name(::std::string* product_name) {$/;"	f	class:store::ProductQuery
+set_allocated_product_name	test/store.pb.h	/^inline void ProductQuery::set_allocated_product_name(::std::string* product_name) {$/;"	f	class:store::ProductQuery
+set_allocated_product_name	test/vendor.pb.cc	/^ void BidQuery::set_allocated_product_name(::std::string* product_name) {$/;"	f	class:vendor::BidQuery
+set_allocated_product_name	test/vendor.pb.h	/^inline void BidQuery::set_allocated_product_name(::std::string* product_name) {$/;"	f	class:vendor::BidQuery
+set_allocated_vendor_id	src/store.pb.cc	/^ void ProductInfo::set_allocated_vendor_id(::std::string* vendor_id) {$/;"	f	class:store::ProductInfo
+set_allocated_vendor_id	src/store.pb.h	/^inline void ProductInfo::set_allocated_vendor_id(::std::string* vendor_id) {$/;"	f	class:store::ProductInfo
+set_allocated_vendor_id	src/vendor.pb.cc	/^ void BidReply::set_allocated_vendor_id(::std::string* vendor_id) {$/;"	f	class:vendor::BidReply
+set_allocated_vendor_id	src/vendor.pb.h	/^inline void BidReply::set_allocated_vendor_id(::std::string* vendor_id) {$/;"	f	class:vendor::BidReply
+set_allocated_vendor_id	test/store.pb.cc	/^ void ProductInfo::set_allocated_vendor_id(::std::string* vendor_id) {$/;"	f	class:store::ProductInfo
+set_allocated_vendor_id	test/store.pb.h	/^inline void ProductInfo::set_allocated_vendor_id(::std::string* vendor_id) {$/;"	f	class:store::ProductInfo
+set_allocated_vendor_id	test/vendor.pb.cc	/^ void BidReply::set_allocated_vendor_id(::std::string* vendor_id) {$/;"	f	class:vendor::BidReply
+set_allocated_vendor_id	test/vendor.pb.h	/^inline void BidReply::set_allocated_vendor_id(::std::string* vendor_id) {$/;"	f	class:vendor::BidReply
+set_price	src/store.pb.cc	/^ void ProductInfo::set_price(double value) {$/;"	f	class:store::ProductInfo
+set_price	src/store.pb.h	/^inline void ProductInfo::set_price(double value) {$/;"	f	class:store::ProductInfo
+set_price	src/vendor.pb.cc	/^ void BidReply::set_price(double value) {$/;"	f	class:vendor::BidReply
+set_price	src/vendor.pb.h	/^inline void BidReply::set_price(double value) {$/;"	f	class:vendor::BidReply
+set_price	test/store.pb.cc	/^ void ProductInfo::set_price(double value) {$/;"	f	class:store::ProductInfo
+set_price	test/store.pb.h	/^inline void ProductInfo::set_price(double value) {$/;"	f	class:store::ProductInfo
+set_price	test/vendor.pb.cc	/^ void BidReply::set_price(double value) {$/;"	f	class:vendor::BidReply
+set_price	test/vendor.pb.h	/^inline void BidReply::set_price(double value) {$/;"	f	class:vendor::BidReply
+set_product_name	src/store.pb.cc	/^ void ProductQuery::set_product_name(const ::std::string& value) {$/;"	f	class:store::ProductQuery
+set_product_name	src/store.pb.cc	/^ void ProductQuery::set_product_name(const char* value) {$/;"	f	class:store::ProductQuery
+set_product_name	src/store.pb.cc	/^ void ProductQuery::set_product_name(const char* value, size_t size) {$/;"	f	class:store::ProductQuery
+set_product_name	src/store.pb.h	/^inline void ProductQuery::set_product_name(const ::std::string& value) {$/;"	f	class:store::ProductQuery
+set_product_name	src/store.pb.h	/^inline void ProductQuery::set_product_name(const char* value) {$/;"	f	class:store::ProductQuery
+set_product_name	src/store.pb.h	/^inline void ProductQuery::set_product_name(const char* value, size_t size) {$/;"	f	class:store::ProductQuery
+set_product_name	src/vendor.pb.cc	/^ void BidQuery::set_product_name(const ::std::string& value) {$/;"	f	class:vendor::BidQuery
+set_product_name	src/vendor.pb.cc	/^ void BidQuery::set_product_name(const char* value) {$/;"	f	class:vendor::BidQuery
+set_product_name	src/vendor.pb.cc	/^ void BidQuery::set_product_name(const char* value, size_t size) {$/;"	f	class:vendor::BidQuery
+set_product_name	src/vendor.pb.h	/^inline void BidQuery::set_product_name(const ::std::string& value) {$/;"	f	class:vendor::BidQuery
+set_product_name	src/vendor.pb.h	/^inline void BidQuery::set_product_name(const char* value) {$/;"	f	class:vendor::BidQuery
+set_product_name	src/vendor.pb.h	/^inline void BidQuery::set_product_name(const char* value, size_t size) {$/;"	f	class:vendor::BidQuery
+set_product_name	test/store.pb.cc	/^ void ProductQuery::set_product_name(const ::std::string& value) {$/;"	f	class:store::ProductQuery
+set_product_name	test/store.pb.cc	/^ void ProductQuery::set_product_name(const char* value) {$/;"	f	class:store::ProductQuery
+set_product_name	test/store.pb.cc	/^ void ProductQuery::set_product_name(const char* value, size_t size) {$/;"	f	class:store::ProductQuery
+set_product_name	test/store.pb.h	/^inline void ProductQuery::set_product_name(const ::std::string& value) {$/;"	f	class:store::ProductQuery
+set_product_name	test/store.pb.h	/^inline void ProductQuery::set_product_name(const char* value) {$/;"	f	class:store::ProductQuery
+set_product_name	test/store.pb.h	/^inline void ProductQuery::set_product_name(const char* value, size_t size) {$/;"	f	class:store::ProductQuery
+set_product_name	test/vendor.pb.cc	/^ void BidQuery::set_product_name(const ::std::string& value) {$/;"	f	class:vendor::BidQuery
+set_product_name	test/vendor.pb.cc	/^ void BidQuery::set_product_name(const char* value) {$/;"	f	class:vendor::BidQuery
+set_product_name	test/vendor.pb.cc	/^ void BidQuery::set_product_name(const char* value, size_t size) {$/;"	f	class:vendor::BidQuery
+set_product_name	test/vendor.pb.h	/^inline void BidQuery::set_product_name(const ::std::string& value) {$/;"	f	class:vendor::BidQuery
+set_product_name	test/vendor.pb.h	/^inline void BidQuery::set_product_name(const char* value) {$/;"	f	class:vendor::BidQuery
+set_product_name	test/vendor.pb.h	/^inline void BidQuery::set_product_name(const char* value, size_t size) {$/;"	f	class:vendor::BidQuery
+set_vendor_id	src/store.pb.cc	/^ void ProductInfo::set_vendor_id(const ::std::string& value) {$/;"	f	class:store::ProductInfo
+set_vendor_id	src/store.pb.cc	/^ void ProductInfo::set_vendor_id(const char* value) {$/;"	f	class:store::ProductInfo
+set_vendor_id	src/store.pb.cc	/^ void ProductInfo::set_vendor_id(const char* value, size_t size) {$/;"	f	class:store::ProductInfo
+set_vendor_id	src/store.pb.h	/^inline void ProductInfo::set_vendor_id(const ::std::string& value) {$/;"	f	class:store::ProductInfo
+set_vendor_id	src/store.pb.h	/^inline void ProductInfo::set_vendor_id(const char* value) {$/;"	f	class:store::ProductInfo
+set_vendor_id	src/store.pb.h	/^inline void ProductInfo::set_vendor_id(const char* value, size_t size) {$/;"	f	class:store::ProductInfo
+set_vendor_id	src/vendor.pb.cc	/^ void BidReply::set_vendor_id(const ::std::string& value) {$/;"	f	class:vendor::BidReply
+set_vendor_id	src/vendor.pb.cc	/^ void BidReply::set_vendor_id(const char* value) {$/;"	f	class:vendor::BidReply
+set_vendor_id	src/vendor.pb.cc	/^ void BidReply::set_vendor_id(const char* value, size_t size) {$/;"	f	class:vendor::BidReply
+set_vendor_id	src/vendor.pb.h	/^inline void BidReply::set_vendor_id(const ::std::string& value) {$/;"	f	class:vendor::BidReply
+set_vendor_id	src/vendor.pb.h	/^inline void BidReply::set_vendor_id(const char* value) {$/;"	f	class:vendor::BidReply
+set_vendor_id	src/vendor.pb.h	/^inline void BidReply::set_vendor_id(const char* value, size_t size) {$/;"	f	class:vendor::BidReply
+set_vendor_id	test/store.pb.cc	/^ void ProductInfo::set_vendor_id(const ::std::string& value) {$/;"	f	class:store::ProductInfo
+set_vendor_id	test/store.pb.cc	/^ void ProductInfo::set_vendor_id(const char* value) {$/;"	f	class:store::ProductInfo
+set_vendor_id	test/store.pb.cc	/^ void ProductInfo::set_vendor_id(const char* value, size_t size) {$/;"	f	class:store::ProductInfo
+set_vendor_id	test/store.pb.h	/^inline void ProductInfo::set_vendor_id(const ::std::string& value) {$/;"	f	class:store::ProductInfo
+set_vendor_id	test/store.pb.h	/^inline void ProductInfo::set_vendor_id(const char* value) {$/;"	f	class:store::ProductInfo
+set_vendor_id	test/store.pb.h	/^inline void ProductInfo::set_vendor_id(const char* value, size_t size) {$/;"	f	class:store::ProductInfo
+set_vendor_id	test/vendor.pb.cc	/^ void BidReply::set_vendor_id(const ::std::string& value) {$/;"	f	class:vendor::BidReply
+set_vendor_id	test/vendor.pb.cc	/^ void BidReply::set_vendor_id(const char* value) {$/;"	f	class:vendor::BidReply
+set_vendor_id	test/vendor.pb.cc	/^ void BidReply::set_vendor_id(const char* value, size_t size) {$/;"	f	class:vendor::BidReply
+set_vendor_id	test/vendor.pb.h	/^inline void BidReply::set_vendor_id(const ::std::string& value) {$/;"	f	class:vendor::BidReply
+set_vendor_id	test/vendor.pb.h	/^inline void BidReply::set_vendor_id(const char* value) {$/;"	f	class:vendor::BidReply
+set_vendor_id	test/vendor.pb.h	/^inline void BidReply::set_vendor_id(const char* value, size_t size) {$/;"	f	class:vendor::BidReply
+static_descriptor_initializer_store_2eproto_	src/store.pb.cc	/^} static_descriptor_initializer_store_2eproto_;$/;"	m	namespace:store	typeref:struct:store::StaticDescriptorInitializer_store_2eproto	file:
+static_descriptor_initializer_store_2eproto_	test/store.pb.cc	/^} static_descriptor_initializer_store_2eproto_;$/;"	m	namespace:store	typeref:struct:store::StaticDescriptorInitializer_store_2eproto	file:
+static_descriptor_initializer_vendor_2eproto_	src/vendor.pb.cc	/^} static_descriptor_initializer_vendor_2eproto_;$/;"	m	namespace:vendor	typeref:struct:vendor::StaticDescriptorInitializer_vendor_2eproto	file:
+static_descriptor_initializer_vendor_2eproto_	test/vendor.pb.cc	/^} static_descriptor_initializer_vendor_2eproto_;$/;"	m	namespace:vendor	typeref:struct:vendor::StaticDescriptorInitializer_vendor_2eproto	file:
+store	src/store.cc	/^class store { $/;"	c	file:
+store	src/store.grpc.pb.cc	/^namespace store {$/;"	n	file:
+store	src/store.grpc.pb.h	/^namespace store {$/;"	n
+store	src/store.pb.cc	/^namespace store {$/;"	n	file:
+store	src/store.pb.h	/^namespace store {$/;"	n
+store	test/store.grpc.pb.cc	/^namespace store {$/;"	n	file:
+store	test/store.grpc.pb.h	/^namespace store {$/;"	n
+store	test/store.pb.cc	/^namespace store {$/;"	n	file:
+store	test/store.pb.h	/^namespace store {$/;"	n
+stub_	test/client.cc	/^  std::unique_ptr<Store::Stub> stub_;$/;"	m	class:StoreClient	file:
+thread_task	test/run_tests.cc	/^void thread_task(const std::string server_addr, ProductSpec& p_spec, ProductQueryResult& pq_result, int query_id, bool& is_done) {$/;"	f
+threadpool	src/threadpool.h	/^class threadpool {$/;"	c
+vendor	src/vendor.grpc.pb.cc	/^namespace vendor {$/;"	n	file:
+vendor	src/vendor.grpc.pb.h	/^namespace vendor {$/;"	n
+vendor	src/vendor.pb.cc	/^namespace vendor {$/;"	n	file:
+vendor	src/vendor.pb.h	/^namespace vendor {$/;"	n
+vendor	test/vendor.grpc.pb.cc	/^namespace vendor {$/;"	n	file:
+vendor	test/vendor.grpc.pb.h	/^namespace vendor {$/;"	n
+vendor	test/vendor.pb.cc	/^namespace vendor {$/;"	n	file:
+vendor	test/vendor.pb.h	/^namespace vendor {$/;"	n
+vendor_id	src/store.pb.cc	/^ const ::std::string& ProductInfo::vendor_id() const {$/;"	f	class:store::ProductInfo
+vendor_id	src/store.pb.h	/^inline const ::std::string& ProductInfo::vendor_id() const {$/;"	f	class:store::ProductInfo
+vendor_id	src/vendor.pb.cc	/^ const ::std::string& BidReply::vendor_id() const {$/;"	f	class:vendor::BidReply
+vendor_id	src/vendor.pb.h	/^inline const ::std::string& BidReply::vendor_id() const {$/;"	f	class:vendor::BidReply
+vendor_id	test/store.pb.cc	/^ const ::std::string& ProductInfo::vendor_id() const {$/;"	f	class:store::ProductInfo
+vendor_id	test/store.pb.h	/^inline const ::std::string& ProductInfo::vendor_id() const {$/;"	f	class:store::ProductInfo
+vendor_id	test/vendor.pb.cc	/^ const ::std::string& BidReply::vendor_id() const {$/;"	f	class:vendor::BidReply
+vendor_id	test/vendor.pb.h	/^inline const ::std::string& BidReply::vendor_id() const {$/;"	f	class:vendor::BidReply
+vendor_id_	src/store.pb.h	/^  ::google::protobuf::internal::ArenaStringPtr vendor_id_;$/;"	m	class:store::ProductInfo
+vendor_id_	src/vendor.pb.h	/^  ::google::protobuf::internal::ArenaStringPtr vendor_id_;$/;"	m	class:vendor::BidReply
+vendor_id_	test/product_queries_util.h	/^		std::string vendor_id_;$/;"	m	struct:ProductQueryResult::Bid
+vendor_id_	test/store.pb.h	/^  ::google::protobuf::internal::ArenaStringPtr vendor_id_;$/;"	m	class:store::ProductInfo
+vendor_id_	test/vendor.pb.h	/^  ::google::protobuf::internal::ArenaStringPtr vendor_id_;$/;"	m	class:vendor::BidReply
+warm_up	test/run_tests.cc	/^bool warm_up(bool & is_done){$/;"	f
+~BidQuery	src/vendor.pb.cc	/^BidQuery::~BidQuery() {$/;"	f	class:vendor::BidQuery
+~BidQuery	test/vendor.pb.cc	/^BidQuery::~BidQuery() {$/;"	f	class:vendor::BidQuery
+~BidReply	src/vendor.pb.cc	/^BidReply::~BidReply() {$/;"	f	class:vendor::BidReply
+~BidReply	test/vendor.pb.cc	/^BidReply::~BidReply() {$/;"	f	class:vendor::BidReply
+~ProductInfo	src/store.pb.cc	/^ProductInfo::~ProductInfo() {$/;"	f	class:store::ProductInfo
+~ProductInfo	test/store.pb.cc	/^ProductInfo::~ProductInfo() {$/;"	f	class:store::ProductInfo
+~ProductQuery	src/store.pb.cc	/^ProductQuery::~ProductQuery() {$/;"	f	class:store::ProductQuery
+~ProductQuery	test/store.pb.cc	/^ProductQuery::~ProductQuery() {$/;"	f	class:store::ProductQuery
+~ProductReply	src/store.pb.cc	/^ProductReply::~ProductReply() {$/;"	f	class:store::ProductReply
+~ProductReply	test/store.pb.cc	/^ProductReply::~ProductReply() {$/;"	f	class:store::ProductReply
+~Service	src/store.grpc.pb.cc	/^Store::Service::~Service() {$/;"	f	class:store::Store::Service
+~Service	src/vendor.grpc.pb.cc	/^Vendor::Service::~Service() {$/;"	f	class:vendor::Vendor::Service
+~Service	test/store.grpc.pb.cc	/^Store::Service::~Service() {$/;"	f	class:store::Store::Service
+~Service	test/vendor.grpc.pb.cc	/^Vendor::Service::~Service() {$/;"	f	class:vendor::Vendor::Service
+~StubInterface	src/store.grpc.pb.h	/^    virtual ~StubInterface() {}$/;"	f	class:store::GRPC_FINAL::StubInterface
+~StubInterface	src/vendor.grpc.pb.h	/^    virtual ~StubInterface() {}$/;"	f	class:vendor::GRPC_FINAL::StubInterface
+~StubInterface	test/store.grpc.pb.h	/^    virtual ~StubInterface() {}$/;"	f	class:store::GRPC_FINAL::StubInterface
+~StubInterface	test/vendor.grpc.pb.h	/^    virtual ~StubInterface() {}$/;"	f	class:vendor::GRPC_FINAL::StubInterface
